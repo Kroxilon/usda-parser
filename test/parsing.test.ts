@@ -15,6 +15,27 @@ test('basic parsing', () => {
     expect(() => {
         parse('#usda 1.0\n');
     }).not.toThrow();
+
+    expect(() => {
+        parse(`#usda 1.0
+(
+    defaultPrim = "hello"
+)
+
+def Xform "hello"
+{
+    custom double3 xformOp:translate = (4, 5, 6)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+
+    def Sphere "world"
+    {
+        float3[] extent = [(-2, -2, -2), (2, 2, 2)]
+        color3f[] primvars:displayColor = [(0, 0, 1)]
+        double radius = 2
+    }
+}`);
+    }).not.toThrow();
+
     expect(() => {
         parse('USDC');
     }).to.throw('Expected "#usda " but "U" found.');
@@ -58,7 +79,8 @@ describe('parsing results', () => {
     // language=file-reference
     let paths = [
         './assets/usdPhysicsBoxOnBox.usda',
-        './assets/Ball.shadingVariants.usda'
+        './assets/Ball.shadingVariants.usda',
+        './assets/helloWorld.usda',
     ];
 
     for (const path of paths) {
@@ -70,7 +92,7 @@ describe('parsing results', () => {
             const jsonPath = resolvedPath + '.json';
             const stringified = JSON.stringify(parsed, null, '  ');
 
-            if(process.env.PRODUCE_RESULTS === 'true') {
+            if (process.env.PRODUCE_RESULTS === 'true') {
                 fs.writeFileSync(jsonPath, stringified);
             } else {
                 expect(stringified).to.eq(fs.readFileSync(jsonPath).toString());
