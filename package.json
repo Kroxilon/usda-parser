@@ -36,6 +36,7 @@
   "author": "firtoz",
   "license": "MIT",
   "devDependencies": {
+    "@changesets/cli": "^2.25.2",
     "@types/node": "^18.11.9",
     "cross-env": "^7.0.3",
     "peggy": "^2.0.1",
