@@ -3,7 +3,7 @@ import {it, expect, test, describe} from 'vitest';
 import {
     parse,
     SyntaxError,
-} from '@kroxilon/usda-loader';
+} from '@kroxilon/usda-parser';
 
 import {resolve} from "path";
 import * as fs from "fs";
