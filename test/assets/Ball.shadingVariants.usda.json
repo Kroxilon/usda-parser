@@ -1,0 +1,1115 @@
+{
+  "version": 1,
+  "descriptor": {
+    "description": null,
+    "assignments": [
+      {
+        "type": "assignment",
+        "keyword": null,
+        "identifier": "defaultPrim",
+        "value": "Ball"
+      }
+    ]
+  },
+  "statements": [
+    {
+      "type": "definition",
+      "subType": "over",
+      "defType": null,
+      "name": "Ball",
+      "args": [
+        {
+          "type": "assignment",
+          "keyword": null,
+          "identifier": "variants",
+          "value": {
+            "type": "objectValue",
+            "declarations": {
+              "type": "objectDeclarationEntries",
+              "values": [
+                {
+                  "keyword": null,
+                  "defineType": "string",
+                  "reference": "shadingVariant",
+                  "value": "Cue"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "assignment",
+          "keyword": "add",
+          "identifier": "variantSets",
+          "value": "shadingVariant"
+        }
+      ],
+      "statements": [
+        {
+          "type": "definition",
+          "subType": "over",
+          "defType": null,
+          "name": "mesh",
+          "args": [],
+          "statements": []
+        },
+        {
+          "type": "definition",
+          "subType": "over",
+          "defType": null,
+          "name": "Looks",
+          "args": [],
+          "statements": [
+            {
+              "type": "definition",
+              "subType": "over",
+              "defType": null,
+              "name": "BallMaterial",
+              "args": [],
+              "statements": [
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "BallTexture",
+                  "args": [],
+                  "statements": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "variantSet",
+          "name": "shadingVariant",
+          "definitions": [
+            {
+              "type": "variantDef",
+              "name": "Ball_1",
+              "definitions": [
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "Looks",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "definition",
+                      "subType": "over",
+                      "defType": null,
+                      "name": "BallMaterial",
+                      "args": [],
+                      "statements": [
+                        {
+                          "type": "definition",
+                          "subType": "over",
+                          "defType": null,
+                          "name": "BallTexture",
+                          "args": [],
+                          "statements": [
+                            {
+                              "type": "declaration",
+                              "keyword": null,
+                              "defineType": "string",
+                              "reference": "filename",
+                              "value": "./tex/ball1.tex",
+                              "descriptor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "mesh",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "declaration",
+                      "keyword": null,
+                      "defineType": "color3f[]",
+                      "reference": "primvars:displayColor",
+                      "value": [
+                        [
+                          1,
+                          0.850422,
+                          0.0241323
+                        ]
+                      ],
+                      "descriptor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "variantDef",
+              "name": "Ball_10",
+              "definitions": [
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "Looks",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "definition",
+                      "subType": "over",
+                      "defType": null,
+                      "name": "BallMaterial",
+                      "args": [],
+                      "statements": [
+                        {
+                          "type": "definition",
+                          "subType": "over",
+                          "defType": null,
+                          "name": "BallTexture",
+                          "args": [],
+                          "statements": [
+                            {
+                              "type": "declaration",
+                              "keyword": null,
+                              "defineType": "string",
+                              "reference": "filename",
+                              "value": "./tex/ball10.tex",
+                              "descriptor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "mesh",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "declaration",
+                      "keyword": null,
+                      "defineType": "color3f[]",
+                      "reference": "primvars:displayColor",
+                      "value": [
+                        [
+                          0.0170208,
+                          0.0444973,
+                          0.363132
+                        ]
+                      ],
+                      "descriptor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "variantDef",
+              "name": "Ball_11",
+              "definitions": [
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "Looks",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "definition",
+                      "subType": "over",
+                      "defType": null,
+                      "name": "BallMaterial",
+                      "args": [],
+                      "statements": [
+                        {
+                          "type": "definition",
+                          "subType": "over",
+                          "defType": null,
+                          "name": "BallTexture",
+                          "args": [],
+                          "statements": [
+                            {
+                              "type": "declaration",
+                              "keyword": null,
+                              "defineType": "string",
+                              "reference": "filename",
+                              "value": "./tex/ball11.tex",
+                              "descriptor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "mesh",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "declaration",
+                      "keyword": null,
+                      "defineType": "color3f[]",
+                      "reference": "primvars:displayColor",
+                      "value": [
+                        [
+                          0.947959,
+                          0.0329563,
+                          0.0134364
+                        ]
+                      ],
+                      "descriptor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "variantDef",
+              "name": "Ball_12",
+              "definitions": [
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "Looks",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "definition",
+                      "subType": "over",
+                      "defType": null,
+                      "name": "BallMaterial",
+                      "args": [],
+                      "statements": [
+                        {
+                          "type": "definition",
+                          "subType": "over",
+                          "defType": null,
+                          "name": "BallTexture",
+                          "args": [],
+                          "statements": [
+                            {
+                              "type": "declaration",
+                              "keyword": null,
+                              "defineType": "string",
+                              "reference": "filename",
+                              "value": "./tex/ball12.tex",
+                              "descriptor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "mesh",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "declaration",
+                      "keyword": null,
+                      "defineType": "color3f[]",
+                      "reference": "primvars:displayColor",
+                      "value": [
+                        [
+                          0.0473661,
+                          0.0167832,
+                          0.133209
+                        ]
+                      ],
+                      "descriptor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "variantDef",
+              "name": "Ball_13",
+              "definitions": [
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "Looks",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "definition",
+                      "subType": "over",
+                      "defType": null,
+                      "name": "BallMaterial",
+                      "args": [],
+                      "statements": [
+                        {
+                          "type": "definition",
+                          "subType": "over",
+                          "defType": null,
+                          "name": "BallTexture",
+                          "args": [],
+                          "statements": [
+                            {
+                              "type": "declaration",
+                              "keyword": null,
+                              "defineType": "string",
+                              "reference": "filename",
+                              "value": "./tex/ball13.tex",
+                              "descriptor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "mesh",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "declaration",
+                      "keyword": null,
+                      "defineType": "color3f[]",
+                      "reference": "primvars:displayColor",
+                      "value": [
+                        [
+                          0.956527,
+                          0.215727,
+                          0.0241323
+                        ]
+                      ],
+                      "descriptor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "variantDef",
+              "name": "Ball_14",
+              "definitions": [
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "Looks",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "definition",
+                      "subType": "over",
+                      "defType": null,
+                      "name": "BallMaterial",
+                      "args": [],
+                      "statements": [
+                        {
+                          "type": "definition",
+                          "subType": "over",
+                          "defType": null,
+                          "name": "BallTexture",
+                          "args": [],
+                          "statements": [
+                            {
+                              "type": "declaration",
+                              "keyword": null,
+                              "defineType": "string",
+                              "reference": "filename",
+                              "value": "./tex/ball14.tex",
+                              "descriptor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "mesh",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "declaration",
+                      "keyword": null,
+                      "defineType": "color3f[]",
+                      "reference": "primvars:displayColor",
+                      "value": [
+                        [
+                          0.0013732,
+                          0.0494753,
+                          0.0429018
+                        ]
+                      ],
+                      "descriptor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "variantDef",
+              "name": "Ball_15",
+              "definitions": [
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "Looks",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "definition",
+                      "subType": "over",
+                      "defType": null,
+                      "name": "BallMaterial",
+                      "args": [],
+                      "statements": [
+                        {
+                          "type": "definition",
+                          "subType": "over",
+                          "defType": null,
+                          "name": "BallTexture",
+                          "args": [],
+                          "statements": [
+                            {
+                              "type": "declaration",
+                              "keyword": null,
+                              "defineType": "string",
+                              "reference": "filename",
+                              "value": "./tex/ball15.tex",
+                              "descriptor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "mesh",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "declaration",
+                      "keyword": null,
+                      "defineType": "color3f[]",
+                      "reference": "primvars:displayColor",
+                      "value": [
+                        [
+                          0.333438,
+                          0.0019764,
+                          0.00550657
+                        ]
+                      ],
+                      "descriptor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "variantDef",
+              "name": "Ball_2",
+              "definitions": [
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "Looks",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "definition",
+                      "subType": "over",
+                      "defType": null,
+                      "name": "BallMaterial",
+                      "args": [],
+                      "statements": [
+                        {
+                          "type": "definition",
+                          "subType": "over",
+                          "defType": null,
+                          "name": "BallTexture",
+                          "args": [],
+                          "statements": [
+                            {
+                              "type": "declaration",
+                              "keyword": null,
+                              "defineType": "string",
+                              "reference": "filename",
+                              "value": "./tex/ball2.tex",
+                              "descriptor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "mesh",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "declaration",
+                      "keyword": null,
+                      "defineType": "color3f[]",
+                      "reference": "primvars:displayColor",
+                      "value": [
+                        [
+                          0.0170208,
+                          0.0444973,
+                          0.363132
+                        ]
+                      ],
+                      "descriptor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "variantDef",
+              "name": "Ball_3",
+              "definitions": [
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "Looks",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "definition",
+                      "subType": "over",
+                      "defType": null,
+                      "name": "BallMaterial",
+                      "args": [],
+                      "statements": [
+                        {
+                          "type": "definition",
+                          "subType": "over",
+                          "defType": null,
+                          "name": "BallTexture",
+                          "args": [],
+                          "statements": [
+                            {
+                              "type": "declaration",
+                              "keyword": null,
+                              "defineType": "string",
+                              "reference": "filename",
+                              "value": "./tex/ball3.tex",
+                              "descriptor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "mesh",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "declaration",
+                      "keyword": null,
+                      "defineType": "color3f[]",
+                      "reference": "primvars:displayColor",
+                      "value": [
+                        [
+                          0.947959,
+                          0.0329563,
+                          0.0134364
+                        ]
+                      ],
+                      "descriptor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "variantDef",
+              "name": "Ball_4",
+              "definitions": [
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "Looks",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "definition",
+                      "subType": "over",
+                      "defType": null,
+                      "name": "BallMaterial",
+                      "args": [],
+                      "statements": [
+                        {
+                          "type": "definition",
+                          "subType": "over",
+                          "defType": null,
+                          "name": "BallTexture",
+                          "args": [],
+                          "statements": [
+                            {
+                              "type": "declaration",
+                              "keyword": null,
+                              "defineType": "string",
+                              "reference": "filename",
+                              "value": "./tex/ball4.tex",
+                              "descriptor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "mesh",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "declaration",
+                      "keyword": null,
+                      "defineType": "color3f[]",
+                      "reference": "primvars:displayColor",
+                      "value": [
+                        [
+                          0.0473661,
+                          0.0167832,
+                          0.133209
+                        ]
+                      ],
+                      "descriptor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "variantDef",
+              "name": "Ball_5",
+              "definitions": [
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "Looks",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "definition",
+                      "subType": "over",
+                      "defType": null,
+                      "name": "BallMaterial",
+                      "args": [],
+                      "statements": [
+                        {
+                          "type": "definition",
+                          "subType": "over",
+                          "defType": null,
+                          "name": "BallTexture",
+                          "args": [],
+                          "statements": [
+                            {
+                              "type": "declaration",
+                              "keyword": null,
+                              "defineType": "string",
+                              "reference": "filename",
+                              "value": "./tex/ball5.tex",
+                              "descriptor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "mesh",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "declaration",
+                      "keyword": null,
+                      "defineType": "color3f[]",
+                      "reference": "primvars:displayColor",
+                      "value": [
+                        [
+                          0.956527,
+                          0.215727,
+                          0.0241323
+                        ]
+                      ],
+                      "descriptor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "variantDef",
+              "name": "Ball_6",
+              "definitions": [
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "Looks",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "definition",
+                      "subType": "over",
+                      "defType": null,
+                      "name": "BallMaterial",
+                      "args": [],
+                      "statements": [
+                        {
+                          "type": "definition",
+                          "subType": "over",
+                          "defType": null,
+                          "name": "BallTexture",
+                          "args": [],
+                          "statements": [
+                            {
+                              "type": "declaration",
+                              "keyword": null,
+                              "defineType": "string",
+                              "reference": "filename",
+                              "value": "./tex/ball6.tex",
+                              "descriptor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "mesh",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "declaration",
+                      "keyword": null,
+                      "defineType": "color3f[]",
+                      "reference": "primvars:displayColor",
+                      "value": [
+                        [
+                          0.0013732,
+                          0.0494753,
+                          0.0429018
+                        ]
+                      ],
+                      "descriptor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "variantDef",
+              "name": "Ball_7",
+              "definitions": [
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "Looks",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "definition",
+                      "subType": "over",
+                      "defType": null,
+                      "name": "BallMaterial",
+                      "args": [],
+                      "statements": [
+                        {
+                          "type": "definition",
+                          "subType": "over",
+                          "defType": null,
+                          "name": "BallTexture",
+                          "args": [],
+                          "statements": [
+                            {
+                              "type": "declaration",
+                              "keyword": null,
+                              "defineType": "string",
+                              "reference": "filename",
+                              "value": "./tex/ball7.tex",
+                              "descriptor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "mesh",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "declaration",
+                      "keyword": null,
+                      "defineType": "color3f[]",
+                      "reference": "primvars:displayColor",
+                      "value": [
+                        [
+                          0.333438,
+                          0.0019764,
+                          0.00550657
+                        ]
+                      ],
+                      "descriptor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "variantDef",
+              "name": "Ball_8",
+              "definitions": [
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "Looks",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "definition",
+                      "subType": "over",
+                      "defType": null,
+                      "name": "BallMaterial",
+                      "args": [],
+                      "statements": [
+                        {
+                          "type": "definition",
+                          "subType": "over",
+                          "defType": null,
+                          "name": "BallTexture",
+                          "args": [],
+                          "statements": [
+                            {
+                              "type": "declaration",
+                              "keyword": null,
+                              "defineType": "string",
+                              "reference": "filename",
+                              "value": "./tex/ball8.tex",
+                              "descriptor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "mesh",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "declaration",
+                      "keyword": null,
+                      "defineType": "color3f[]",
+                      "reference": "primvars:displayColor",
+                      "value": [
+                        [
+                          0.00977218,
+                          0.00908114,
+                          0.00778151
+                        ]
+                      ],
+                      "descriptor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "variantDef",
+              "name": "Ball_9",
+              "definitions": [
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "Looks",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "definition",
+                      "subType": "over",
+                      "defType": null,
+                      "name": "BallMaterial",
+                      "args": [],
+                      "statements": [
+                        {
+                          "type": "definition",
+                          "subType": "over",
+                          "defType": null,
+                          "name": "BallTexture",
+                          "args": [],
+                          "statements": [
+                            {
+                              "type": "declaration",
+                              "keyword": null,
+                              "defineType": "string",
+                              "reference": "filename",
+                              "value": "./tex/ball9.tex",
+                              "descriptor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "mesh",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "declaration",
+                      "keyword": null,
+                      "defineType": "color3f[]",
+                      "reference": "primvars:displayColor",
+                      "value": [
+                        [
+                          1,
+                          0.850422,
+                          0.0241323
+                        ]
+                      ],
+                      "descriptor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "variantDef",
+              "name": "Cue",
+              "definitions": [
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "Looks",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "definition",
+                      "subType": "over",
+                      "defType": null,
+                      "name": "BallMaterial",
+                      "args": [],
+                      "statements": [
+                        {
+                          "type": "definition",
+                          "subType": "over",
+                          "defType": null,
+                          "name": "BallTexture",
+                          "args": [],
+                          "statements": [
+                            {
+                              "type": "declaration",
+                              "keyword": null,
+                              "defineType": "string",
+                              "reference": "filename",
+                              "value": "./tex/ballCue.tex",
+                              "descriptor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "definition",
+                  "subType": "over",
+                  "defType": null,
+                  "name": "mesh",
+                  "args": [],
+                  "statements": [
+                    {
+                      "type": "declaration",
+                      "keyword": null,
+                      "defineType": "color3f[]",
+                      "reference": "primvars:displayColor",
+                      "value": [
+                        [
+                          0.991221,
+                          0.982484,
+                          0.743576
+                        ]
+                      ],
+                      "descriptor": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

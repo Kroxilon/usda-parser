@@ -1,0 +1,48 @@
+{
+  "name": "@kroxilon/usda-parser",
+  "version": "0.0.0",
+  "description": "Allows parsing of USDA files - see https://www.openusd.org",
+  "scripts": {
+    "peg": "peggy --plugin ts-pegjs --extra-options-file pegconfig.json src/usda-parser.peggy -o src/usda-parser.peggy.ts",
+    "fix": "yarn tsc ./build-scripts/fix-before-compile.ts && node ./build-scripts/fix-before-compile.js",
+    "build": "yarn peg && yarn fix && yarn tsc && echo done",
+    "test": "vitest run",
+    "test-produce-expected-files": "cross-env PRODUCE_RESULTS=true vitest run",
+    "vitest": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kroxilon/usda-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kroxilon/usda-parser/issues"
+  },
+  "homepage": "https://github.com/Kroxilon/usda-parser#readme",
+  "keywords": [
+    "kroxilon",
+    "usd",
+    "usda",
+    "parser",
+    "peggy",
+    "pegjs",
+    "typescript"
+  ],
+  "files": [
+    "lib/*",
+    "src/*"
+  ],
+  "types": "lib/index.d.ts",
+  "main": "lib/index.js",
+  "author": "firtoz",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "cross-env": "^7.0.3",
+    "peggy": "^2.0.1",
+    "ts-pegjs": "^2.1.0",
+    "typescript": "4.9.3",
+    "vite": "^3.2.4",
+    "vitest": "^0.25.2"
+  },
+  "packageManager": "yarn@3.3.0"
+}

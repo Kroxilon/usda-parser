@@ -1,0 +1,257 @@
+{
+  "version": 1,
+  "descriptor": {
+    "description": null,
+    "assignments": [
+      {
+        "type": "assignment",
+        "keyword": null,
+        "identifier": "defaultPrim",
+        "value": "World"
+      },
+      {
+        "type": "assignment",
+        "keyword": null,
+        "identifier": "endTimeCode",
+        "value": 100
+      },
+      {
+        "type": "assignment",
+        "keyword": null,
+        "identifier": "metersPerUnit",
+        "value": 0.01
+      },
+      {
+        "type": "assignment",
+        "keyword": null,
+        "identifier": "startTimeCode",
+        "value": 0
+      },
+      {
+        "type": "assignment",
+        "keyword": null,
+        "identifier": "timeCodesPerSecond",
+        "value": 24
+      },
+      {
+        "type": "assignment",
+        "keyword": null,
+        "identifier": "upAxis",
+        "value": "Z"
+      },
+      {
+        "type": "assignment",
+        "keyword": null,
+        "identifier": "kilogramsPerUnit",
+        "value": 1
+      }
+    ]
+  },
+  "statements": [
+    {
+      "type": "definition",
+      "subType": "def",
+      "defType": "Xform",
+      "name": "World",
+      "args": [],
+      "statements": [
+        {
+          "type": "definition",
+          "subType": "def",
+          "defType": "PhysicsScene",
+          "name": "PhysicsScene",
+          "args": [],
+          "statements": []
+        },
+        {
+          "type": "definition",
+          "subType": "def",
+          "defType": "Cube",
+          "name": "BoxActor",
+          "args": [
+            {
+              "type": "assignment",
+              "keyword": "prepend",
+              "identifier": "apiSchemas",
+              "value": [
+                "PhysicsCollisionAPI",
+                "PhysicsRigidBodyAPI"
+              ]
+            }
+          ],
+          "statements": [
+            {
+              "type": "declaration",
+              "keyword": null,
+              "defineType": "vector3f",
+              "reference": "physics:velocity",
+              "value": [
+                2,
+                1,
+                2
+              ],
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": null,
+              "defineType": "vector3f",
+              "reference": "physics:angularVelocity",
+              "value": [
+                1,
+                0,
+                0
+              ],
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": null,
+              "defineType": "color3f[]",
+              "reference": "primvars:displayColor",
+              "value": [
+                [
+                  0.2784314,
+                  0.4117647,
+                  1
+                ]
+              ],
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": null,
+              "defineType": "double",
+              "reference": "size",
+              "value": 25,
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": null,
+              "defineType": "double3",
+              "reference": "xformOp:translate",
+              "value": [
+                0,
+                0,
+                500
+              ],
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": "uniform",
+              "defineType": "token[]",
+              "reference": "xformOpOrder",
+              "value": [
+                "xformOp:translate"
+              ],
+              "descriptor": null
+            }
+          ]
+        },
+        {
+          "type": "definition",
+          "subType": "def",
+          "defType": "Cube",
+          "name": "Ground",
+          "args": [
+            {
+              "type": "assignment",
+              "keyword": "prepend",
+              "identifier": "apiSchemas",
+              "value": [
+                "PhysicsCollisionAPI"
+              ]
+            }
+          ],
+          "statements": [
+            {
+              "type": "declaration",
+              "keyword": null,
+              "defineType": "color3f[]",
+              "reference": "primvars:displayColor",
+              "value": [
+                [
+                  0.5,
+                  0.5,
+                  0.5
+                ]
+              ],
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": null,
+              "defineType": "float3",
+              "reference": "xformOp:scale",
+              "value": [
+                750,
+                750,
+                10
+              ],
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": "uniform",
+              "defineType": "token[]",
+              "reference": "xformOpOrder",
+              "value": [
+                "xformOp:scale"
+              ],
+              "descriptor": null
+            }
+          ]
+        },
+        {
+          "type": "definition",
+          "subType": "def",
+          "defType": "SphereLight",
+          "name": "SphereLight",
+          "args": [],
+          "statements": [
+            {
+              "type": "declaration",
+              "keyword": null,
+              "defineType": "float",
+              "reference": "intensity",
+              "value": 30000,
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": null,
+              "defineType": "float",
+              "reference": "radius",
+              "value": 150,
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": null,
+              "defineType": "double3",
+              "reference": "xformOp:translate",
+              "value": [
+                650,
+                0,
+                1150
+              ],
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": "uniform",
+              "defineType": "token[]",
+              "reference": "xformOpOrder",
+              "value": [
+                "xformOp:translate"
+              ],
+              "descriptor": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
