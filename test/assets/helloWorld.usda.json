@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "descriptor": {
+    "description": null,
+    "assignments": [
+      {
+        "type": "assignment",
+        "keyword": null,
+        "identifier": "defaultPrim",
+        "value": "hello"
+      }
+    ]
+  },
+  "statements": [
+    {
+      "type": "definition",
+      "subType": "def",
+      "defType": "Xform",
+      "name": "hello",
+      "args": [],
+      "statements": [
+        {
+          "type": "declaration",
+          "keyword": "custom",
+          "defineType": "double3",
+          "reference": "xformOp:translate",
+          "value": [
+            4,
+            5,
+            6
+          ],
+          "descriptor": null
+        },
+        {
+          "type": "declaration",
+          "keyword": "uniform",
+          "defineType": "token[]",
+          "reference": "xformOpOrder",
+          "value": [
+            "xformOp:translate"
+          ],
+          "descriptor": null
+        },
+        {
+          "type": "definition",
+          "subType": "def",
+          "defType": "Sphere",
+          "name": "world",
+          "args": [],
+          "statements": [
+            {
+              "type": "declaration",
+              "keyword": null,
+              "defineType": "float3[]",
+              "reference": "extent",
+              "value": [
+                [
+                  -2,
+                  -2,
+                  -2
+                ],
+                [
+                  2,
+                  2,
+                  2
+                ]
+              ],
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": null,
+              "defineType": "color3f[]",
+              "reference": "primvars:displayColor",
+              "value": [
+                [
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": null,
+              "defineType": "double",
+              "reference": "radius",
+              "value": 2,
+              "descriptor": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
