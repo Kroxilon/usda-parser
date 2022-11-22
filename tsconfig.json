@@ -15,7 +15,7 @@
     "sourceMap": true,
     "moduleResolution": "node",
     "paths": {
-      "@kroxilon/usda-loader": [
+      "@kroxilon/usda-parser": [
         "./src/index.ts"
       ]
     }

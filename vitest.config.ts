@@ -14,7 +14,7 @@ export default defineConfig({
     },
     resolve: {
         alias: {
-            '@kroxilon/usda-loader': r('./')
+            '@kroxilon/usda-parser': r('./')
         },
     }
 })
