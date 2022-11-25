@@ -53,14 +53,14 @@
       "subType": "def",
       "defType": "Xform",
       "name": "World",
-      "args": [],
+      "descriptor": null,
       "statements": [
         {
           "type": "definition",
           "subType": "def",
           "defType": "PhysicsScene",
           "name": "PhysicsScene",
-          "args": [],
+          "descriptor": null,
           "statements": []
         },
         {
@@ -68,17 +68,20 @@
           "subType": "def",
           "defType": "Cube",
           "name": "BoxActor",
-          "args": [
-            {
-              "type": "assignment",
-              "keyword": "prepend",
-              "identifier": "apiSchemas",
-              "value": [
-                "PhysicsCollisionAPI",
-                "PhysicsRigidBodyAPI"
-              ]
-            }
-          ],
+          "descriptor": {
+            "description": null,
+            "assignments": [
+              {
+                "type": "assignment",
+                "keyword": "prepend",
+                "identifier": "apiSchemas",
+                "value": [
+                  "PhysicsCollisionAPI",
+                  "PhysicsRigidBodyAPI"
+                ]
+              }
+            ]
+          },
           "statements": [
             {
               "type": "declaration",
@@ -155,16 +158,19 @@
           "subType": "def",
           "defType": "Cube",
           "name": "Ground",
-          "args": [
-            {
-              "type": "assignment",
-              "keyword": "prepend",
-              "identifier": "apiSchemas",
-              "value": [
-                "PhysicsCollisionAPI"
-              ]
-            }
-          ],
+          "descriptor": {
+            "description": null,
+            "assignments": [
+              {
+                "type": "assignment",
+                "keyword": "prepend",
+                "identifier": "apiSchemas",
+                "value": [
+                  "PhysicsCollisionAPI"
+                ]
+              }
+            ]
+          },
           "statements": [
             {
               "type": "declaration",
@@ -209,7 +215,7 @@
           "subType": "def",
           "defType": "SphereLight",
           "name": "SphereLight",
-          "args": [],
+          "descriptor": null,
           "statements": [
             {
               "type": "declaration",

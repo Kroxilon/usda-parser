@@ -128,7 +128,7 @@ export interface USDA_Definition {
     subType: USDA_DefinitionType;
     defType: USDA_Typename | null;
     name: string;
-    args: USDA_Assignment<any>[];
+    descriptor: USDA_Descriptor | null;
     statements: USDA_DefinitionStatement[];
 }
 

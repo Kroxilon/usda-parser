@@ -17,40 +17,43 @@
       "subType": "over",
       "defType": null,
       "name": "Ball",
-      "args": [
-        {
-          "type": "assignment",
-          "keyword": null,
-          "identifier": "variants",
-          "value": {
-            "type": "objectValue",
-            "declarations": {
-              "type": "objectDeclarationEntries",
-              "values": [
-                {
-                  "keyword": null,
-                  "defineType": "string",
-                  "reference": "shadingVariant",
-                  "value": "Cue"
-                }
-              ]
+      "descriptor": {
+        "description": null,
+        "assignments": [
+          {
+            "type": "assignment",
+            "keyword": null,
+            "identifier": "variants",
+            "value": {
+              "type": "objectValue",
+              "declarations": {
+                "type": "objectDeclarationEntries",
+                "values": [
+                  {
+                    "keyword": null,
+                    "defineType": "string",
+                    "reference": "shadingVariant",
+                    "value": "Cue"
+                  }
+                ]
+              }
             }
+          },
+          {
+            "type": "assignment",
+            "keyword": "add",
+            "identifier": "variantSets",
+            "value": "shadingVariant"
           }
-        },
-        {
-          "type": "assignment",
-          "keyword": "add",
-          "identifier": "variantSets",
-          "value": "shadingVariant"
-        }
-      ],
+        ]
+      },
       "statements": [
         {
           "type": "definition",
           "subType": "over",
           "defType": null,
           "name": "mesh",
-          "args": [],
+          "descriptor": null,
           "statements": []
         },
         {
@@ -58,21 +61,21 @@
           "subType": "over",
           "defType": null,
           "name": "Looks",
-          "args": [],
+          "descriptor": null,
           "statements": [
             {
               "type": "definition",
               "subType": "over",
               "defType": null,
               "name": "BallMaterial",
-              "args": [],
+              "descriptor": null,
               "statements": [
                 {
                   "type": "definition",
                   "subType": "over",
                   "defType": null,
                   "name": "BallTexture",
-                  "args": [],
+                  "descriptor": null,
                   "statements": []
                 }
               ]
@@ -92,21 +95,21 @@
                   "subType": "over",
                   "defType": null,
                   "name": "Looks",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "definition",
                       "subType": "over",
                       "defType": null,
                       "name": "BallMaterial",
-                      "args": [],
+                      "descriptor": null,
                       "statements": [
                         {
                           "type": "definition",
                           "subType": "over",
                           "defType": null,
                           "name": "BallTexture",
-                          "args": [],
+                          "descriptor": null,
                           "statements": [
                             {
                               "type": "declaration",
@@ -127,7 +130,7 @@
                   "subType": "over",
                   "defType": null,
                   "name": "mesh",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "declaration",
@@ -156,21 +159,21 @@
                   "subType": "over",
                   "defType": null,
                   "name": "Looks",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "definition",
                       "subType": "over",
                       "defType": null,
                       "name": "BallMaterial",
-                      "args": [],
+                      "descriptor": null,
                       "statements": [
                         {
                           "type": "definition",
                           "subType": "over",
                           "defType": null,
                           "name": "BallTexture",
-                          "args": [],
+                          "descriptor": null,
                           "statements": [
                             {
                               "type": "declaration",
@@ -191,7 +194,7 @@
                   "subType": "over",
                   "defType": null,
                   "name": "mesh",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "declaration",
@@ -220,21 +223,21 @@
                   "subType": "over",
                   "defType": null,
                   "name": "Looks",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "definition",
                       "subType": "over",
                       "defType": null,
                       "name": "BallMaterial",
-                      "args": [],
+                      "descriptor": null,
                       "statements": [
                         {
                           "type": "definition",
                           "subType": "over",
                           "defType": null,
                           "name": "BallTexture",
-                          "args": [],
+                          "descriptor": null,
                           "statements": [
                             {
                               "type": "declaration",
@@ -255,7 +258,7 @@
                   "subType": "over",
                   "defType": null,
                   "name": "mesh",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "declaration",
@@ -284,21 +287,21 @@
                   "subType": "over",
                   "defType": null,
                   "name": "Looks",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "definition",
                       "subType": "over",
                       "defType": null,
                       "name": "BallMaterial",
-                      "args": [],
+                      "descriptor": null,
                       "statements": [
                         {
                           "type": "definition",
                           "subType": "over",
                           "defType": null,
                           "name": "BallTexture",
-                          "args": [],
+                          "descriptor": null,
                           "statements": [
                             {
                               "type": "declaration",
@@ -319,7 +322,7 @@
                   "subType": "over",
                   "defType": null,
                   "name": "mesh",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "declaration",
@@ -348,21 +351,21 @@
                   "subType": "over",
                   "defType": null,
                   "name": "Looks",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "definition",
                       "subType": "over",
                       "defType": null,
                       "name": "BallMaterial",
-                      "args": [],
+                      "descriptor": null,
                       "statements": [
                         {
                           "type": "definition",
                           "subType": "over",
                           "defType": null,
                           "name": "BallTexture",
-                          "args": [],
+                          "descriptor": null,
                           "statements": [
                             {
                               "type": "declaration",
@@ -383,7 +386,7 @@
                   "subType": "over",
                   "defType": null,
                   "name": "mesh",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "declaration",
@@ -412,21 +415,21 @@
                   "subType": "over",
                   "defType": null,
                   "name": "Looks",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "definition",
                       "subType": "over",
                       "defType": null,
                       "name": "BallMaterial",
-                      "args": [],
+                      "descriptor": null,
                       "statements": [
                         {
                           "type": "definition",
                           "subType": "over",
                           "defType": null,
                           "name": "BallTexture",
-                          "args": [],
+                          "descriptor": null,
                           "statements": [
                             {
                               "type": "declaration",
@@ -447,7 +450,7 @@
                   "subType": "over",
                   "defType": null,
                   "name": "mesh",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "declaration",
@@ -476,21 +479,21 @@
                   "subType": "over",
                   "defType": null,
                   "name": "Looks",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "definition",
                       "subType": "over",
                       "defType": null,
                       "name": "BallMaterial",
-                      "args": [],
+                      "descriptor": null,
                       "statements": [
                         {
                           "type": "definition",
                           "subType": "over",
                           "defType": null,
                           "name": "BallTexture",
-                          "args": [],
+                          "descriptor": null,
                           "statements": [
                             {
                               "type": "declaration",
@@ -511,7 +514,7 @@
                   "subType": "over",
                   "defType": null,
                   "name": "mesh",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "declaration",
@@ -540,21 +543,21 @@
                   "subType": "over",
                   "defType": null,
                   "name": "Looks",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "definition",
                       "subType": "over",
                       "defType": null,
                       "name": "BallMaterial",
-                      "args": [],
+                      "descriptor": null,
                       "statements": [
                         {
                           "type": "definition",
                           "subType": "over",
                           "defType": null,
                           "name": "BallTexture",
-                          "args": [],
+                          "descriptor": null,
                           "statements": [
                             {
                               "type": "declaration",
@@ -575,7 +578,7 @@
                   "subType": "over",
                   "defType": null,
                   "name": "mesh",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "declaration",
@@ -604,21 +607,21 @@
                   "subType": "over",
                   "defType": null,
                   "name": "Looks",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "definition",
                       "subType": "over",
                       "defType": null,
                       "name": "BallMaterial",
-                      "args": [],
+                      "descriptor": null,
                       "statements": [
                         {
                           "type": "definition",
                           "subType": "over",
                           "defType": null,
                           "name": "BallTexture",
-                          "args": [],
+                          "descriptor": null,
                           "statements": [
                             {
                               "type": "declaration",
@@ -639,7 +642,7 @@
                   "subType": "over",
                   "defType": null,
                   "name": "mesh",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "declaration",
@@ -668,21 +671,21 @@
                   "subType": "over",
                   "defType": null,
                   "name": "Looks",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "definition",
                       "subType": "over",
                       "defType": null,
                       "name": "BallMaterial",
-                      "args": [],
+                      "descriptor": null,
                       "statements": [
                         {
                           "type": "definition",
                           "subType": "over",
                           "defType": null,
                           "name": "BallTexture",
-                          "args": [],
+                          "descriptor": null,
                           "statements": [
                             {
                               "type": "declaration",
@@ -703,7 +706,7 @@
                   "subType": "over",
                   "defType": null,
                   "name": "mesh",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "declaration",
@@ -732,21 +735,21 @@
                   "subType": "over",
                   "defType": null,
                   "name": "Looks",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "definition",
                       "subType": "over",
                       "defType": null,
                       "name": "BallMaterial",
-                      "args": [],
+                      "descriptor": null,
                       "statements": [
                         {
                           "type": "definition",
                           "subType": "over",
                           "defType": null,
                           "name": "BallTexture",
-                          "args": [],
+                          "descriptor": null,
                           "statements": [
                             {
                               "type": "declaration",
@@ -767,7 +770,7 @@
                   "subType": "over",
                   "defType": null,
                   "name": "mesh",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "declaration",
@@ -796,21 +799,21 @@
                   "subType": "over",
                   "defType": null,
                   "name": "Looks",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "definition",
                       "subType": "over",
                       "defType": null,
                       "name": "BallMaterial",
-                      "args": [],
+                      "descriptor": null,
                       "statements": [
                         {
                           "type": "definition",
                           "subType": "over",
                           "defType": null,
                           "name": "BallTexture",
-                          "args": [],
+                          "descriptor": null,
                           "statements": [
                             {
                               "type": "declaration",
@@ -831,7 +834,7 @@
                   "subType": "over",
                   "defType": null,
                   "name": "mesh",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "declaration",
@@ -860,21 +863,21 @@
                   "subType": "over",
                   "defType": null,
                   "name": "Looks",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "definition",
                       "subType": "over",
                       "defType": null,
                       "name": "BallMaterial",
-                      "args": [],
+                      "descriptor": null,
                       "statements": [
                         {
                           "type": "definition",
                           "subType": "over",
                           "defType": null,
                           "name": "BallTexture",
-                          "args": [],
+                          "descriptor": null,
                           "statements": [
                             {
                               "type": "declaration",
@@ -895,7 +898,7 @@
                   "subType": "over",
                   "defType": null,
                   "name": "mesh",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "declaration",
@@ -924,21 +927,21 @@
                   "subType": "over",
                   "defType": null,
                   "name": "Looks",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "definition",
                       "subType": "over",
                       "defType": null,
                       "name": "BallMaterial",
-                      "args": [],
+                      "descriptor": null,
                       "statements": [
                         {
                           "type": "definition",
                           "subType": "over",
                           "defType": null,
                           "name": "BallTexture",
-                          "args": [],
+                          "descriptor": null,
                           "statements": [
                             {
                               "type": "declaration",
@@ -959,7 +962,7 @@
                   "subType": "over",
                   "defType": null,
                   "name": "mesh",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "declaration",
@@ -988,21 +991,21 @@
                   "subType": "over",
                   "defType": null,
                   "name": "Looks",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "definition",
                       "subType": "over",
                       "defType": null,
                       "name": "BallMaterial",
-                      "args": [],
+                      "descriptor": null,
                       "statements": [
                         {
                           "type": "definition",
                           "subType": "over",
                           "defType": null,
                           "name": "BallTexture",
-                          "args": [],
+                          "descriptor": null,
                           "statements": [
                             {
                               "type": "declaration",
@@ -1023,7 +1026,7 @@
                   "subType": "over",
                   "defType": null,
                   "name": "mesh",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "declaration",
@@ -1052,21 +1055,21 @@
                   "subType": "over",
                   "defType": null,
                   "name": "Looks",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "definition",
                       "subType": "over",
                       "defType": null,
                       "name": "BallMaterial",
-                      "args": [],
+                      "descriptor": null,
                       "statements": [
                         {
                           "type": "definition",
                           "subType": "over",
                           "defType": null,
                           "name": "BallTexture",
-                          "args": [],
+                          "descriptor": null,
                           "statements": [
                             {
                               "type": "declaration",
@@ -1087,7 +1090,7 @@
                   "subType": "over",
                   "defType": null,
                   "name": "mesh",
-                  "args": [],
+                  "descriptor": null,
                   "statements": [
                     {
                       "type": "declaration",

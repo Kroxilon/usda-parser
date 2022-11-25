@@ -17,7 +17,7 @@
       "subType": "def",
       "defType": "Xform",
       "name": "hello",
-      "args": [],
+      "descriptor": null,
       "statements": [
         {
           "type": "declaration",
@@ -46,7 +46,7 @@
           "subType": "def",
           "defType": "Sphere",
           "name": "world",
-          "args": [],
+          "descriptor": null,
           "statements": [
             {
               "type": "declaration",

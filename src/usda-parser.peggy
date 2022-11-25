@@ -71,7 +71,7 @@ DEFINITION
         )?
         name:STRING
         WHITESPACE
-        args: ASSIGNMENTS?
+        descriptor: DESCRIPTOR?
         WHITESPACE
         "{"
           WHITESPACE
@@ -83,16 +83,10 @@ DEFINITION
           subType,
           defType: identifier,
           name,
-          args: args ?? [],
+          descriptor,
           statements: statements ?? [],
         }}
 
-ASSIGNMENTS
-	= "("
-    	WHITESPACE args:(WHITESPACE arg:ASSIGNMENT {return arg})* WHITESPACE
-    ")" {
-      return args;
-    }
 
 STATEMENT_SEPARATOR
 	= NON_LINE_WHITESPACE [\n] WHITESPACE
@@ -139,7 +133,7 @@ DESCRIPTOR
         assignments:  assignments ?? [],
       }
     }
-    )
+  )
 
 ASSIGNMENT =
   keyword: ASSIGNMENT_KEYWORDS?
@@ -177,7 +171,7 @@ DECLARATION
       {return desc}
     )?
     {
-    	return {
+      return {
         type: 'declaration',
         keyword,
         defineType: type,
