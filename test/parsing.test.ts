@@ -80,6 +80,7 @@ describe('parsing results', () => {
     let paths = [
         './assets/usdPhysicsBoxOnBox.usda',
         './assets/Ball.shadingVariants.usda',
+        './assets/relativeReference.usda',
         './assets/helloWorld.usda',
     ];
 

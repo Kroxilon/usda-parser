@@ -1,6 +1,6 @@
 {
   "name": "@kroxilon/usda-parser",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Allows parsing of USDA files - see https://www.openusd.org",
   "scripts": {
     "peg": "peggy --plugin ts-pegjs --extra-options-file pegconfig.json src/usda-parser.peggy -o src/usda-parser.peggy.ts",

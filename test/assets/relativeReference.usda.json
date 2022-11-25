@@ -1,0 +1,982 @@
+{
+  "version": 1,
+  "descriptor": null,
+  "statements": [
+    {
+      "type": "definition",
+      "subType": "def",
+      "defType": "SkelAnimation",
+      "name": "Anim1",
+      "descriptor": null,
+      "statements": [
+        {
+          "type": "declaration",
+          "keyword": "uniform",
+          "defineType": "token[]",
+          "reference": "blendShapes",
+          "value": [
+            "override",
+            "shape"
+          ],
+          "descriptor": null
+        }
+      ]
+    },
+    {
+      "type": "definition",
+      "subType": "def",
+      "defType": "SkelAnimation",
+      "name": "Anim2",
+      "descriptor": null,
+      "statements": []
+    },
+    {
+      "type": "definition",
+      "subType": "def",
+      "defType": "SkelAnimation",
+      "name": "InactiveAnim",
+      "descriptor": {
+        "description": null,
+        "assignments": [
+          {
+            "type": "assignment",
+            "keyword": null,
+            "identifier": "active",
+            "value": false
+          }
+        ]
+      },
+      "statements": []
+    },
+    {
+      "type": "definition",
+      "subType": "def",
+      "defType": "Skeleton",
+      "name": "Skel1",
+      "descriptor": null,
+      "statements": []
+    },
+    {
+      "type": "definition",
+      "subType": "def",
+      "defType": "Skeleton",
+      "name": "Skel2",
+      "descriptor": null,
+      "statements": []
+    },
+    {
+      "type": "definition",
+      "subType": "def",
+      "defType": "Skeleton",
+      "name": "InactiveSkel",
+      "descriptor": {
+        "description": null,
+        "assignments": [
+          {
+            "type": "assignment",
+            "keyword": null,
+            "identifier": "active",
+            "value": false
+          }
+        ]
+      },
+      "statements": []
+    },
+    {
+      "type": "definition",
+      "subType": "def",
+      "defType": "Scope",
+      "name": "InstancedModelAnimBindings",
+      "descriptor": {
+        "description": null,
+        "assignments": [
+          {
+            "type": "assignment",
+            "keyword": null,
+            "identifier": "instanceable",
+            "value": true
+          }
+        ]
+      },
+      "statements": [
+        {
+          "type": "definition",
+          "subType": "def",
+          "defType": "SkelAnimation",
+          "name": "Anim",
+          "descriptor": null,
+          "statements": []
+        },
+        {
+          "type": "definition",
+          "subType": "def",
+          "defType": "Skeleton",
+          "name": "Inherit",
+          "descriptor": null,
+          "statements": []
+        },
+        {
+          "type": "definition",
+          "subType": "def",
+          "defType": "Skeleton",
+          "name": "Override",
+          "descriptor": {
+            "description": null,
+            "assignments": [
+              {
+                "type": "assignment",
+                "keyword": "prepend",
+                "identifier": "apiSchemas",
+                "value": [
+                  "SkelBindingAPI"
+                ]
+              }
+            ]
+          },
+          "statements": [
+            {
+              "type": "declaration",
+              "keyword": null,
+              "defineType": "rel",
+              "reference": "skel:animationSource",
+              "value": {
+                "type": "externalReferenceImport",
+                "importPath": "../Anim",
+                "field": null
+              },
+              "descriptor": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "definition",
+      "subType": "def",
+      "defType": "SkelRoot",
+      "name": "AnimBinding",
+      "descriptor": null,
+      "statements": [
+        {
+          "type": "definition",
+          "subType": "def",
+          "defType": "Scope",
+          "name": "Scope",
+          "descriptor": {
+            "description": null,
+            "assignments": [
+              {
+                "type": "assignment",
+                "keyword": "prepend",
+                "identifier": "apiSchemas",
+                "value": [
+                  "SkelBindingAPI"
+                ]
+              }
+            ]
+          },
+          "statements": [
+            {
+              "type": "declaration",
+              "keyword": null,
+              "defineType": "rel",
+              "reference": "skel:animationSource",
+              "value": {
+                "type": "externalReferenceImport",
+                "importPath": "/Anim1",
+                "field": null
+              },
+              "descriptor": null
+            },
+            {
+              "type": "definition",
+              "subType": "def",
+              "defType": "Skeleton",
+              "name": "Inherit",
+              "descriptor": null,
+              "statements": []
+            },
+            {
+              "type": "definition",
+              "subType": "def",
+              "defType": "Skeleton",
+              "name": "Override",
+              "descriptor": {
+                "description": null,
+                "assignments": [
+                  {
+                    "type": "assignment",
+                    "keyword": "prepend",
+                    "identifier": "apiSchemas",
+                    "value": [
+                      "SkelBindingAPI"
+                    ]
+                  }
+                ]
+              },
+              "statements": [
+                {
+                  "type": "declaration",
+                  "keyword": null,
+                  "defineType": "rel",
+                  "reference": "skel:animationSource",
+                  "value": {
+                    "type": "externalReferenceImport",
+                    "importPath": "/Anim2",
+                    "field": null
+                  },
+                  "descriptor": null
+                }
+              ]
+            },
+            {
+              "type": "definition",
+              "subType": "def",
+              "defType": "Skeleton",
+              "name": "Block",
+              "descriptor": {
+                "description": null,
+                "assignments": [
+                  {
+                    "type": "assignment",
+                    "keyword": "prepend",
+                    "identifier": "apiSchemas",
+                    "value": [
+                      "SkelBindingAPI"
+                    ]
+                  }
+                ]
+              },
+              "statements": [
+                {
+                  "type": "declaration",
+                  "keyword": null,
+                  "defineType": "rel",
+                  "reference": "skel:animationSource",
+                  "value": null,
+                  "descriptor": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "definition",
+          "subType": "def",
+          "defType": "Skeleton",
+          "name": "Unbound",
+          "descriptor": null,
+          "statements": []
+        },
+        {
+          "type": "definition",
+          "subType": "def",
+          "defType": "Skeleton",
+          "name": "BoundToInactiveAnim",
+          "descriptor": {
+            "description": null,
+            "assignments": [
+              {
+                "type": "assignment",
+                "keyword": "prepend",
+                "identifier": "apiSchemas",
+                "value": [
+                  "SkelBindingAPI"
+                ]
+              }
+            ]
+          },
+          "statements": [
+            {
+              "type": "declaration",
+              "keyword": null,
+              "defineType": "rel",
+              "reference": "skel:animationSource",
+              "value": {
+                "type": "externalReferenceImport",
+                "importPath": "/InactiveAnim",
+                "field": null
+              },
+              "descriptor": null
+            }
+          ]
+        },
+        {
+          "type": "definition",
+          "subType": "over",
+          "defType": null,
+          "name": "Instance",
+          "descriptor": {
+            "description": null,
+            "assignments": [
+              {
+                "type": "assignment",
+                "keyword": "add",
+                "identifier": "references",
+                "value": {
+                  "type": "externalReferenceImport",
+                  "importPath": "/InstancedModelAnimBindings",
+                  "field": null
+                }
+              },
+              {
+                "type": "assignment",
+                "keyword": "prepend",
+                "identifier": "apiSchemas",
+                "value": [
+                  "SkelBindingAPI"
+                ]
+              }
+            ]
+          },
+          "statements": [
+            {
+              "type": "declaration",
+              "keyword": null,
+              "defineType": "rel",
+              "reference": "skel:animationSource",
+              "value": {
+                "type": "externalReferenceImport",
+                "importPath": "/Anim1",
+                "field": null
+              },
+              "descriptor": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "definition",
+      "subType": "def",
+      "defType": "Scope",
+      "name": "InstancedModelSkelBindings",
+      "descriptor": {
+        "description": null,
+        "assignments": [
+          {
+            "type": "assignment",
+            "keyword": null,
+            "identifier": "instanceable",
+            "value": true
+          }
+        ]
+      },
+      "statements": [
+        {
+          "type": "definition",
+          "subType": "def",
+          "defType": "Skeleton",
+          "name": "Skel",
+          "descriptor": null,
+          "statements": []
+        },
+        {
+          "type": "definition",
+          "subType": "def",
+          "defType": "Mesh",
+          "name": "Inherit",
+          "descriptor": null,
+          "statements": []
+        },
+        {
+          "type": "definition",
+          "subType": "def",
+          "defType": "Mesh",
+          "name": "Override",
+          "descriptor": {
+            "description": null,
+            "assignments": [
+              {
+                "type": "assignment",
+                "keyword": "prepend",
+                "identifier": "apiSchemas",
+                "value": [
+                  "SkelBindingAPI"
+                ]
+              }
+            ]
+          },
+          "statements": [
+            {
+              "type": "declaration",
+              "keyword": null,
+              "defineType": "rel",
+              "reference": "skel:skeleton",
+              "value": {
+                "type": "externalReferenceImport",
+                "importPath": "../Skel",
+                "field": null
+              },
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": "uniform",
+              "defineType": "matrix4d",
+              "reference": "primvars:skel:geomBindTransform",
+              "value": [
+                [
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": "uniform",
+              "defineType": "int[]",
+              "reference": "primvars:skel:jointIndices",
+              "value": [],
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": "uniform",
+              "defineType": "float[]",
+              "reference": "primvars:skel:jointWeights",
+              "value": [],
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": "uniform",
+              "defineType": "token[]",
+              "reference": "skel:joints",
+              "value": [
+                "override"
+              ],
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": "uniform",
+              "defineType": "token[]",
+              "reference": "skel:blendShapes",
+              "value": [
+                "override"
+              ],
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": null,
+              "defineType": "rel",
+              "reference": "skel:blendShapeTargets",
+              "value": [],
+              "descriptor": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "definition",
+      "subType": "def",
+      "defType": "SkelRoot",
+      "name": "SkelBinding",
+      "descriptor": null,
+      "statements": [
+        {
+          "type": "declaration",
+          "keyword": null,
+          "defineType": "rel",
+          "reference": "skel:animationSource",
+          "value": {
+            "type": "externalReferenceImport",
+            "importPath": "/Anim1",
+            "field": null
+          },
+          "descriptor": null
+        },
+        {
+          "type": "definition",
+          "subType": "def",
+          "defType": "Scope",
+          "name": "Scope",
+          "descriptor": {
+            "description": null,
+            "assignments": [
+              {
+                "type": "assignment",
+                "keyword": "prepend",
+                "identifier": "apiSchemas",
+                "value": [
+                  "SkelBindingAPI"
+                ]
+              }
+            ]
+          },
+          "statements": [
+            {
+              "type": "declaration",
+              "keyword": null,
+              "defineType": "rel",
+              "reference": "skel:skeleton",
+              "value": {
+                "type": "externalReferenceImport",
+                "importPath": "/Skel1",
+                "field": null
+              },
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": "uniform",
+              "defineType": "matrix4d",
+              "reference": "primvars:skel:geomBindTransform",
+              "value": [
+                [
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": "uniform",
+              "defineType": "int[]",
+              "reference": "primvars:skel:jointIndices",
+              "value": [],
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": "uniform",
+              "defineType": "float[]",
+              "reference": "primvars:skel:jointWeights",
+              "value": [],
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": "uniform",
+              "defineType": "token[]",
+              "reference": "skel:joints",
+              "value": [
+                "scope"
+              ],
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": "uniform",
+              "defineType": "token[]",
+              "reference": "skel:blendShapes",
+              "value": [
+                "ignored"
+              ],
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": null,
+              "defineType": "rel",
+              "reference": "skel:blendShapeTargets",
+              "value": [],
+              "descriptor": null
+            },
+            {
+              "type": "definition",
+              "subType": "def",
+              "defType": "Mesh",
+              "name": "Inherit",
+              "descriptor": null,
+              "statements": []
+            },
+            {
+              "type": "definition",
+              "subType": "def",
+              "defType": "Mesh",
+              "name": "Override",
+              "descriptor": {
+                "description": null,
+                "assignments": [
+                  {
+                    "type": "assignment",
+                    "keyword": "prepend",
+                    "identifier": "apiSchemas",
+                    "value": [
+                      "SkelBindingAPI"
+                    ]
+                  }
+                ]
+              },
+              "statements": [
+                {
+                  "type": "declaration",
+                  "keyword": null,
+                  "defineType": "rel",
+                  "reference": "skel:skeleton",
+                  "value": {
+                    "type": "externalReferenceImport",
+                    "importPath": "/Skel2",
+                    "field": null
+                  },
+                  "descriptor": null
+                },
+                {
+                  "type": "declaration",
+                  "keyword": "uniform",
+                  "defineType": "matrix4d",
+                  "reference": "primvars:skel:geomBindTransform",
+                  "value": [
+                    [
+                      1,
+                      0,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0,
+                      1,
+                      0
+                    ],
+                    [
+                      0,
+                      0,
+                      0,
+                      1
+                    ]
+                  ],
+                  "descriptor": null
+                },
+                {
+                  "type": "declaration",
+                  "keyword": "uniform",
+                  "defineType": "int[]",
+                  "reference": "primvars:skel:jointIndices",
+                  "value": [],
+                  "descriptor": null
+                },
+                {
+                  "type": "declaration",
+                  "keyword": "uniform",
+                  "defineType": "float[]",
+                  "reference": "primvars:skel:jointWeights",
+                  "value": [],
+                  "descriptor": null
+                },
+                {
+                  "type": "declaration",
+                  "keyword": "uniform",
+                  "defineType": "token[]",
+                  "reference": "skel:joints",
+                  "value": [
+                    "override"
+                  ],
+                  "descriptor": null
+                },
+                {
+                  "type": "declaration",
+                  "keyword": "uniform",
+                  "defineType": "token[]",
+                  "reference": "skel:blendShapes",
+                  "value": [
+                    "shape"
+                  ],
+                  "descriptor": null
+                },
+                {
+                  "type": "declaration",
+                  "keyword": null,
+                  "defineType": "rel",
+                  "reference": "skel:blendShapeTargets",
+                  "value": [],
+                  "descriptor": null
+                }
+              ]
+            },
+            {
+              "type": "definition",
+              "subType": "def",
+              "defType": "Mesh",
+              "name": "Block",
+              "descriptor": {
+                "description": null,
+                "assignments": [
+                  {
+                    "type": "assignment",
+                    "keyword": "prepend",
+                    "identifier": "apiSchemas",
+                    "value": [
+                      "SkelBindingAPI"
+                    ]
+                  }
+                ]
+              },
+              "statements": [
+                {
+                  "type": "declaration",
+                  "keyword": null,
+                  "defineType": "rel",
+                  "reference": "skel:skeleton",
+                  "value": null,
+                  "descriptor": null
+                },
+                {
+                  "type": "declaration",
+                  "keyword": "uniform",
+                  "defineType": "matrix4d",
+                  "reference": "primvars:skel:geomBindTransform",
+                  "value": null,
+                  "descriptor": null
+                },
+                {
+                  "type": "declaration",
+                  "keyword": "uniform",
+                  "defineType": "int[]",
+                  "reference": "primvars:skel:jointIndices",
+                  "value": null,
+                  "descriptor": null
+                },
+                {
+                  "type": "declaration",
+                  "keyword": "uniform",
+                  "defineType": "float[]",
+                  "reference": "primvars:skel:jointWeights",
+                  "value": null,
+                  "descriptor": null
+                },
+                {
+                  "type": "declaration",
+                  "keyword": "uniform",
+                  "defineType": "token[]",
+                  "reference": "skel:joints",
+                  "value": null,
+                  "descriptor": null
+                },
+                {
+                  "type": "declaration",
+                  "keyword": "uniform",
+                  "defineType": "token[]",
+                  "reference": "skel:blendShapes",
+                  "value": null,
+                  "descriptor": null
+                },
+                {
+                  "type": "declaration",
+                  "keyword": null,
+                  "defineType": "rel",
+                  "reference": "skel:blendShapeTargets",
+                  "value": null,
+                  "descriptor": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "definition",
+          "subType": "def",
+          "defType": "Mesh",
+          "name": "Unbound",
+          "descriptor": null,
+          "statements": []
+        },
+        {
+          "type": "definition",
+          "subType": "def",
+          "defType": "Mesh",
+          "name": "BoundToInactiveSkel",
+          "descriptor": {
+            "description": null,
+            "assignments": [
+              {
+                "type": "assignment",
+                "keyword": "prepend",
+                "identifier": "apiSchemas",
+                "value": [
+                  "SkelBindingAPI"
+                ]
+              }
+            ]
+          },
+          "statements": [
+            {
+              "type": "declaration",
+              "keyword": null,
+              "defineType": "rel",
+              "reference": "skel:skeleton",
+              "value": {
+                "type": "externalReferenceImport",
+                "importPath": "/InactiveSkel",
+                "field": null
+              },
+              "descriptor": null
+            }
+          ]
+        },
+        {
+          "type": "definition",
+          "subType": "over",
+          "defType": null,
+          "name": "Instance",
+          "descriptor": {
+            "description": null,
+            "assignments": [
+              {
+                "type": "assignment",
+                "keyword": "add",
+                "identifier": "references",
+                "value": {
+                  "type": "externalReferenceImport",
+                  "importPath": "/InstancedModelSkelBindings",
+                  "field": null
+                }
+              },
+              {
+                "type": "assignment",
+                "keyword": "prepend",
+                "identifier": "apiSchemas",
+                "value": [
+                  "SkelBindingAPI"
+                ]
+              }
+            ]
+          },
+          "statements": [
+            {
+              "type": "declaration",
+              "keyword": null,
+              "defineType": "rel",
+              "reference": "skel:skeleton",
+              "value": {
+                "type": "externalReferenceImport",
+                "importPath": "/Skel1",
+                "field": null
+              },
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": "uniform",
+              "defineType": "matrix4d",
+              "reference": "primvars:skel:geomBindTransform",
+              "value": [
+                [
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": "uniform",
+              "defineType": "int[]",
+              "reference": "primvars:skel:jointIndices",
+              "value": [],
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": "uniform",
+              "defineType": "float[]",
+              "reference": "primvars:skel:jointWeights",
+              "value": [],
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": "uniform",
+              "defineType": "token[]",
+              "reference": "skel:joints",
+              "value": [
+                "instance"
+              ],
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": "uniform",
+              "defineType": "token[]",
+              "reference": "skel:blendShapes",
+              "value": [
+                "ignored"
+              ],
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": null,
+              "defineType": "rel",
+              "reference": "skel:blendShapeTargets",
+              "value": [],
+              "descriptor": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

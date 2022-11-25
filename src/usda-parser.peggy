@@ -346,10 +346,10 @@ EXTERNAL_REFERENCE_STRING
     src,
   }}
 
-EXTERNAL_REFERENCE_IMPORT "REFERENCE"
+EXTERNAL_REFERENCE_IMPORT
   = "<"
       NON_LINE_WHITESPACE
-      path:$([/] / IDENTIFIER)+
+      path:$("/" / "./" / "../" / IDENTIFIER)+
       field:("." @$([.:] / IDENTIFIER)+)?
       NON_LINE_WHITESPACE
     ">" {
