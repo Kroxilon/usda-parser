@@ -88,7 +88,7 @@ export interface USDA_ReferenceFile {
 export interface USDA_VariantDefinition {
     type: USDA_StatementType.VariantDef;
     name: string;
-    definition?: USDA_Definition;
+    definitions: USDA_Definition[];
 }
 
 export interface USDA_VariantSet {
