@@ -64,7 +64,7 @@ This should produce:
       "subType": "def",
       "defType": "Xform",
       "name": "hello",
-      "args": [],
+      "descriptor": null,
       "statements": [
         {
           "type": "declaration",
@@ -93,7 +93,7 @@ This should produce:
           "subType": "def",
           "defType": "Sphere",
           "name": "world",
-          "args": [],
+          "descriptor": null,
           "statements": [
             {
               "type": "declaration",
