@@ -1,0 +1,426 @@
+{
+  "version": 1,
+  "descriptor": null,
+  "statements": [
+    {
+      "type": "definition",
+      "subType": "def",
+      "defType": "Sphere",
+      "name": "Sphere",
+      "descriptor": {
+        "description": null,
+        "assignments": [
+          {
+            "type": "assignment",
+            "keyword": null,
+            "identifier": "inherits",
+            "value": {
+              "type": "externalReferenceImport",
+              "importPath": "/_class_Sphere",
+              "field": null
+            }
+          },
+          {
+            "type": "assignment",
+            "keyword": null,
+            "identifier": "payload",
+            "value": {
+              "type": "externalReference",
+              "referenceFile": {
+                "type": "externalReferenceSrc",
+                "src": "./payload.usda",
+                "descriptor": null
+              },
+              "toImport": null
+            }
+          },
+          {
+            "type": "assignment",
+            "keyword": null,
+            "identifier": "references",
+            "value": [
+              {
+                "type": "externalReference",
+                "referenceFile": {
+                  "type": "externalReferenceSrc",
+                  "src": "./reference.usda",
+                  "descriptor": null
+                },
+                "toImport": null
+              }
+            ]
+          },
+          {
+            "type": "assignment",
+            "keyword": null,
+            "identifier": "variantSets",
+            "value": "vset_1"
+          },
+          {
+            "type": "assignment",
+            "keyword": null,
+            "identifier": "variants",
+            "value": {
+              "type": "objectValue",
+              "declarations": {
+                "type": "objectDeclarationEntries",
+                "values": [
+                  {
+                    "keyword": null,
+                    "defineType": "string",
+                    "reference": "vset_1",
+                    "value": "default"
+                  },
+                  {
+                    "keyword": null,
+                    "defineType": "string",
+                    "reference": "vset_2",
+                    "value": "default"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "statements": [
+        {
+          "type": "declaration",
+          "keyword": null,
+          "defineType": "float",
+          "reference": "timeSamplesAcrossLayerOffset",
+          "value": null,
+          "descriptor": null
+        },
+        {
+          "type": "declaration",
+          "keyword": null,
+          "defineType": "float",
+          "reference": "timeSamplesAcrossLayerOffset.timeSamples",
+          "value": {
+            "type": "objectValue",
+            "declarations": {
+              "type": "objectDeclarationList",
+              "values": [
+                {
+                  "index": 1,
+                  "value": 1
+                },
+                {
+                  "index": 10,
+                  "value": 10
+                }
+              ]
+            }
+          },
+          "descriptor": null
+        },
+        {
+          "type": "declaration",
+          "keyword": null,
+          "defineType": "float",
+          "reference": "defaultOverTimeSamples",
+          "value": null,
+          "descriptor": null
+        },
+        {
+          "type": "declaration",
+          "keyword": null,
+          "defineType": "float",
+          "reference": "defaultOverTimeSamples.timeSamples",
+          "value": {
+            "type": "objectValue",
+            "declarations": {
+              "type": "objectDeclarationList",
+              "values": [
+                {
+                  "index": 1,
+                  "value": 1
+                },
+                {
+                  "index": 10,
+                  "value": 10
+                }
+              ]
+            }
+          },
+          "descriptor": null
+        },
+        {
+          "type": "declaration",
+          "keyword": null,
+          "defineType": "float",
+          "reference": "timeSamplesOverDefault",
+          "value": null,
+          "descriptor": null
+        },
+        {
+          "type": "declaration",
+          "keyword": null,
+          "defineType": "float",
+          "reference": "timeSamplesOverDefault",
+          "value": 123,
+          "descriptor": null
+        },
+        {
+          "type": "declaration",
+          "keyword": null,
+          "defineType": "asset",
+          "reference": "relativePath",
+          "value": {
+            "type": "externalReference",
+            "referenceFile": {
+              "type": "externalReferenceSrc",
+              "src": "./foo.usda",
+              "descriptor": null
+            },
+            "toImport": null
+          },
+          "descriptor": null
+        },
+        {
+          "type": "declaration",
+          "keyword": null,
+          "defineType": "asset[]",
+          "reference": "relativePathVec",
+          "value": [
+            {
+              "type": "externalReference",
+              "referenceFile": {
+                "type": "externalReferenceSrc",
+                "src": "./foo.usda",
+                "descriptor": null
+              },
+              "toImport": null
+            },
+            {
+              "type": "externalReference",
+              "referenceFile": {
+                "type": "externalReferenceSrc",
+                "src": "./bar.usda",
+                "descriptor": null
+              },
+              "toImport": null
+            }
+          ],
+          "descriptor": null
+        },
+        {
+          "type": "variantSet",
+          "name": "vset_1",
+          "definitions": [
+            {
+              "type": "variantDef",
+              "name": "default",
+              "descriptor": {
+                "description": null,
+                "assignments": [
+                  {
+                    "type": "assignment",
+                    "keyword": null,
+                    "identifier": "variantSets",
+                    "value": "vset_2"
+                  }
+                ]
+              },
+              "definitions": [
+                {
+                  "type": "variantSet",
+                  "name": "vset_2",
+                  "definitions": [
+                    {
+                      "type": "variantDef",
+                      "name": "default",
+                      "descriptor": null,
+                      "definitions": [
+                        {
+                          "type": "definition",
+                          "subType": "def",
+                          "defType": "Xform",
+                          "name": "ChildFromNestedVariant",
+                          "descriptor": null,
+                          "statements": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "definition",
+      "subType": "def",
+      "defType": "Sphere",
+      "name": "ListOpTest",
+      "descriptor": null,
+      "statements": [
+        {
+          "type": "declaration",
+          "keyword": "custom",
+          "defineType": "rel",
+          "reference": "foo",
+          "value": null,
+          "descriptor": null
+        },
+        {
+          "type": "declaration",
+          "keyword": "prepend",
+          "defineType": "rel",
+          "reference": "foo",
+          "value": {
+            "type": "externalReferenceImport",
+            "importPath": "/Pre_sub",
+            "field": null
+          },
+          "descriptor": null
+        },
+        {
+          "type": "declaration",
+          "keyword": "append",
+          "defineType": "rel",
+          "reference": "foo",
+          "value": {
+            "type": "externalReferenceImport",
+            "importPath": "/App_sub",
+            "field": null
+          },
+          "descriptor": null
+        },
+        {
+          "type": "declaration",
+          "keyword": "delete",
+          "defineType": "rel",
+          "reference": "foo",
+          "value": {
+            "type": "externalReferenceImport",
+            "importPath": "/Del_sub",
+            "field": null
+          },
+          "descriptor": null
+        }
+      ]
+    },
+    {
+      "type": "definition",
+      "subType": "def",
+      "defType": "Sphere",
+      "name": "SphereUsingClip",
+      "descriptor": {
+        "description": null,
+        "assignments": [
+          {
+            "type": "assignment",
+            "keyword": null,
+            "identifier": "clips",
+            "value": {
+              "type": "objectValue",
+              "declarations": {
+                "type": "objectDeclarationEntries",
+                "values": [
+                  {
+                    "keyword": null,
+                    "defineType": "dictionary",
+                    "reference": "default",
+                    "value": {
+                      "type": "objectValue",
+                      "declarations": {
+                        "type": "objectDeclarationEntries",
+                        "values": [
+                          {
+                            "keyword": null,
+                            "defineType": "asset[]",
+                            "reference": "assetPaths",
+                            "value": [
+                              {
+                                "type": "externalReference",
+                                "referenceFile": {
+                                  "type": "externalReferenceSrc",
+                                  "src": "./clip_moving_sphere.usda",
+                                  "descriptor": null
+                                },
+                                "toImport": null
+                              }
+                            ]
+                          },
+                          {
+                            "keyword": null,
+                            "defineType": "asset",
+                            "reference": "manifestAssetPath",
+                            "value": {
+                              "type": "externalReference",
+                              "referenceFile": {
+                                "type": "externalReferenceSrc",
+                                "src": "./clip_static_sphere.usda",
+                                "descriptor": null
+                              },
+                              "toImport": null
+                            }
+                          },
+                          {
+                            "keyword": null,
+                            "defineType": "string",
+                            "reference": "primPath",
+                            "value": "/Sphere"
+                          },
+                          {
+                            "keyword": null,
+                            "defineType": "double2[]",
+                            "reference": "active",
+                            "value": [
+                              [
+                                1,
+                                0
+                              ]
+                            ]
+                          },
+                          {
+                            "keyword": null,
+                            "defineType": "double2[]",
+                            "reference": "times",
+                            "value": [
+                              [
+                                1,
+                                1
+                              ],
+                              [
+                                10,
+                                10
+                              ]
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "assignment",
+            "keyword": null,
+            "identifier": "references",
+            "value": {
+              "type": "externalReference",
+              "referenceFile": {
+                "type": "externalReferenceSrc",
+                "src": "./clip_static_sphere.usda",
+                "descriptor": null
+              },
+              "toImport": {
+                "type": "externalReferenceImport",
+                "importPath": "/Sphere",
+                "field": null
+              }
+            }
+          }
+        ]
+      },
+      "statements": []
+    }
+  ]
+}

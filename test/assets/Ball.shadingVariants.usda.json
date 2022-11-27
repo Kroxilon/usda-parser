@@ -89,6 +89,7 @@
             {
               "type": "variantDef",
               "name": "Ball_1",
+              "descriptor": null,
               "definitions": [
                 {
                   "type": "definition",
@@ -153,6 +154,7 @@
             {
               "type": "variantDef",
               "name": "Ball_10",
+              "descriptor": null,
               "definitions": [
                 {
                   "type": "definition",
@@ -217,6 +219,7 @@
             {
               "type": "variantDef",
               "name": "Ball_11",
+              "descriptor": null,
               "definitions": [
                 {
                   "type": "definition",
@@ -281,6 +284,7 @@
             {
               "type": "variantDef",
               "name": "Ball_12",
+              "descriptor": null,
               "definitions": [
                 {
                   "type": "definition",
@@ -345,6 +349,7 @@
             {
               "type": "variantDef",
               "name": "Ball_13",
+              "descriptor": null,
               "definitions": [
                 {
                   "type": "definition",
@@ -409,6 +414,7 @@
             {
               "type": "variantDef",
               "name": "Ball_14",
+              "descriptor": null,
               "definitions": [
                 {
                   "type": "definition",
@@ -473,6 +479,7 @@
             {
               "type": "variantDef",
               "name": "Ball_15",
+              "descriptor": null,
               "definitions": [
                 {
                   "type": "definition",
@@ -537,6 +544,7 @@
             {
               "type": "variantDef",
               "name": "Ball_2",
+              "descriptor": null,
               "definitions": [
                 {
                   "type": "definition",
@@ -601,6 +609,7 @@
             {
               "type": "variantDef",
               "name": "Ball_3",
+              "descriptor": null,
               "definitions": [
                 {
                   "type": "definition",
@@ -665,6 +674,7 @@
             {
               "type": "variantDef",
               "name": "Ball_4",
+              "descriptor": null,
               "definitions": [
                 {
                   "type": "definition",
@@ -729,6 +739,7 @@
             {
               "type": "variantDef",
               "name": "Ball_5",
+              "descriptor": null,
               "definitions": [
                 {
                   "type": "definition",
@@ -793,6 +804,7 @@
             {
               "type": "variantDef",
               "name": "Ball_6",
+              "descriptor": null,
               "definitions": [
                 {
                   "type": "definition",
@@ -857,6 +869,7 @@
             {
               "type": "variantDef",
               "name": "Ball_7",
+              "descriptor": null,
               "definitions": [
                 {
                   "type": "definition",
@@ -921,6 +934,7 @@
             {
               "type": "variantDef",
               "name": "Ball_8",
+              "descriptor": null,
               "definitions": [
                 {
                   "type": "definition",
@@ -985,6 +999,7 @@
             {
               "type": "variantDef",
               "name": "Ball_9",
+              "descriptor": null,
               "definitions": [
                 {
                   "type": "definition",
@@ -1049,6 +1064,7 @@
             {
               "type": "variantDef",
               "name": "Cue",
+              "descriptor": null,
               "definitions": [
                 {
                   "type": "definition",

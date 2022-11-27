@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "descriptor": {
+    "description": null,
+    "assignments": [
+      {
+        "type": "assignment",
+        "keyword": null,
+        "identifier": "startTimeCode",
+        "value": 1
+      },
+      {
+        "type": "assignment",
+        "keyword": null,
+        "identifier": "endTimeCode",
+        "value": 10
+      },
+      {
+        "type": "assignment",
+        "keyword": null,
+        "identifier": "defaultPrim",
+        "value": "Sphere"
+      }
+    ]
+  },
+  "statements": [
+    {
+      "type": "definition",
+      "subType": "def",
+      "defType": "Sphere",
+      "name": "Sphere",
+      "descriptor": null,
+      "statements": [
+        {
+          "type": "declaration",
+          "keyword": null,
+          "defineType": "float3",
+          "reference": "xformOp:translate.timeSamples",
+          "value": {
+            "type": "objectValue",
+            "declarations": {
+              "type": "objectDeclarationList",
+              "values": [
+                {
+                  "index": 1,
+                  "value": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "index": 10,
+                  "value": [
+                    0,
+                    1,
+                    0
+                  ]
+                }
+              ]
+            }
+          },
+          "descriptor": null
+        },
+        {
+          "type": "declaration",
+          "keyword": "uniform",
+          "defineType": "token[]",
+          "reference": "xformOpOrder",
+          "value": [
+            "xformOp:translate"
+          ],
+          "descriptor": null
+        }
+      ]
+    }
+  ]
+}

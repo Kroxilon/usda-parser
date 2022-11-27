@@ -20,6 +20,7 @@ FILE
 
 VARIANT_DEF
 	= name: STRING
+	  descriptor:(WHITESPACE @DESCRIPTOR)?
 	  WHITESPACE '{'
         WHITESPACE
         definitions:DEFINITION_STATEMENTS?
@@ -29,6 +30,7 @@ VARIANT_DEF
 	    return {
 	      type: 'variantDef',
           name,
+          descriptor,
           definitions: definitions ?? [],
 	    }
 	  }
@@ -151,7 +153,8 @@ ASSIGNMENT =
 
 
 ASSIGNMENT_KEYWORDS
-	= "prepend" / "add"
+    // https://graphics.pixar.com/usd/release/glossary.html#usdglossary-layerstack
+	= "prepend" / "add" / "append" / "delete"
 
 DECLARATION
 	=
@@ -182,7 +185,7 @@ DECLARATION
     }
 
 DECLARATION_KEYWORDS
-	= "varying" / "uniform" / "custom"
+	= "varying" / "uniform" / "custom" / "prepend" / "append" / "delete"
 
 REFERENCE
 	= $((IDENTIFIER ([:.] IDENTIFIER)*)/STRING)
@@ -341,9 +344,10 @@ EXTERNAL_REFERENCE
   }
 
 EXTERNAL_REFERENCE_STRING
-  = "@" src:$[^@]* "@" {return {
+  = "@" src:$[^@]* "@" descriptor:(WHITESPACE @DESCRIPTOR)? {return {
     type: 'externalReferenceSrc',
     src,
+    descriptor,
   }}
 
 EXTERNAL_REFERENCE_IMPORT

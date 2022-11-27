@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "descriptor": {
+    "description": null,
+    "assignments": [
+      {
+        "type": "assignment",
+        "keyword": null,
+        "identifier": "startTimeCode",
+        "value": 1
+      },
+      {
+        "type": "assignment",
+        "keyword": null,
+        "identifier": "endTimeCode",
+        "value": 20
+      },
+      {
+        "type": "assignment",
+        "keyword": null,
+        "identifier": "subLayers",
+        "value": [
+          {
+            "type": "externalReference",
+            "referenceFile": {
+              "type": "externalReferenceSrc",
+              "src": "./sub.usda",
+              "descriptor": {
+                "description": null,
+                "assignments": [
+                  {
+                    "type": "assignment",
+                    "keyword": null,
+                    "identifier": "offset",
+                    "value": -10
+                  }
+                ]
+              }
+            },
+            "toImport": null
+          }
+        ]
+      }
+    ]
+  },
+  "statements": [
+    {
+      "type": "definition",
+      "subType": "over",
+      "defType": null,
+      "name": "Sphere",
+      "descriptor": null,
+      "statements": [
+        {
+          "type": "declaration",
+          "keyword": null,
+          "defineType": "float",
+          "reference": "defaultOverTimeSamples",
+          "value": 123,
+          "descriptor": null
+        },
+        {
+          "type": "declaration",
+          "keyword": null,
+          "defineType": "float",
+          "reference": "timeSamplesOverDefault.timeSamples",
+          "value": {
+            "type": "objectValue",
+            "declarations": {
+              "type": "objectDeclarationList",
+              "values": [
+                {
+                  "index": 1,
+                  "value": 1
+                },
+                {
+                  "index": 10,
+                  "value": 10
+                }
+              ]
+            }
+          },
+          "descriptor": null
+        }
+      ]
+    },
+    {
+      "type": "definition",
+      "subType": "over",
+      "defType": null,
+      "name": "ListOpTest",
+      "descriptor": null,
+      "statements": [
+        {
+          "type": "declaration",
+          "keyword": "prepend",
+          "defineType": "rel",
+          "reference": "foo",
+          "value": {
+            "type": "externalReferenceImport",
+            "importPath": "/Pre_root",
+            "field": null
+          },
+          "descriptor": null
+        },
+        {
+          "type": "declaration",
+          "keyword": "append",
+          "defineType": "rel",
+          "reference": "foo",
+          "value": {
+            "type": "externalReferenceImport",
+            "importPath": "/App_root",
+            "field": null
+          },
+          "descriptor": null
+        },
+        {
+          "type": "declaration",
+          "keyword": "delete",
+          "defineType": "rel",
+          "reference": "foo",
+          "value": {
+            "type": "externalReferenceImport",
+            "importPath": "/Del_root",
+            "field": null
+          },
+          "descriptor": null
+        }
+      ]
+    },
+    {
+      "type": "classDefinition",
+      "id": null,
+      "name": "_class_Sphere",
+      "descriptor": null,
+      "classDeclarations": []
+    }
+  ]
+}

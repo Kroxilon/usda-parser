@@ -1,13 +1,13 @@
 {
   "name": "@kroxilon/usda-parser",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Allows parsing of USDA files - see https://www.openusd.org",
   "scripts": {
     "peg": "peggy --plugin ts-pegjs --extra-options-file pegconfig.json src/usda-parser.peggy -o src/usda-parser.peggy.ts",
     "fix": "yarn tsc ./build-scripts/fix-before-compile.ts && node ./build-scripts/fix-before-compile.js",
     "build": "yarn peg && yarn fix && yarn tsc && echo done",
     "test": "vitest run",
-    "test-produce-expected-files": "cross-env PRODUCE_RESULTS=true vitest run",
+    "test-produce-expected-files": "yarn build && cross-env PRODUCE_RESULTS=true vitest run",
     "vitest": "vitest"
   },
   "repository": {

@@ -75,21 +75,15 @@ def Xform "hello"
     }
 });
 
+// @ts-ignore
+const usdaFiles: Record<string, () => string> = import.meta.glob('./assets/**/*.usda', {as: 'raw'})
+
 describe('parsing results', () => {
-    // language=file-reference
-    let paths = [
-        './assets/usdPhysicsBoxOnBox.usda',
-        './assets/Ball.shadingVariants.usda',
-        './assets/relativeReference.usda',
-        './assets/helloWorld.usda',
-    ];
-
-    for (const path of paths) {
-        it(path, () => {
+    for (const [path, contentsGetter] of Object.entries(usdaFiles)) {
+        it(path, async () => {
+            const contents = await contentsGetter();
+            const parsed = parse(contents);
             const resolvedPath = resolve(__dirname, path);
-            const fileContents = fs.readFileSync(resolvedPath).toString();
-
-            const parsed = parse(fileContents);
             const jsonPath = resolvedPath + '.json';
             const stringified = JSON.stringify(parsed, null, '  ');
 

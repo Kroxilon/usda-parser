@@ -1,0 +1,401 @@
+{
+  "version": 1,
+  "descriptor": {
+    "description": null,
+    "assignments": [
+      {
+        "type": "assignment",
+        "keyword": null,
+        "identifier": "doc",
+        "value": "Generated from Composed Stage of root layer /home/mtucker/USD/pxr/usd/usdUtils/testenv/testUsdUtilsFlattenLayerStack/combined.usda\n"
+      },
+      {
+        "type": "assignment",
+        "keyword": null,
+        "identifier": "endTimeCode",
+        "value": 2
+      },
+      {
+        "type": "assignment",
+        "keyword": null,
+        "identifier": "framesPerSecond",
+        "value": 24
+      },
+      {
+        "type": "assignment",
+        "keyword": null,
+        "identifier": "metersPerUnit",
+        "value": 1
+      },
+      {
+        "type": "assignment",
+        "keyword": null,
+        "identifier": "startTimeCode",
+        "value": 1
+      },
+      {
+        "type": "assignment",
+        "keyword": null,
+        "identifier": "timeCodesPerSecond",
+        "value": 24
+      },
+      {
+        "type": "assignment",
+        "keyword": null,
+        "identifier": "upAxis",
+        "value": "Y"
+      }
+    ]
+  },
+  "statements": [
+    {
+      "type": "definition",
+      "subType": "def",
+      "defType": "Volume",
+      "name": "volume",
+      "descriptor": null,
+      "statements": [
+        {
+          "type": "declaration",
+          "keyword": "custom",
+          "defineType": "rel",
+          "reference": "field:density",
+          "value": {
+            "type": "externalReferenceImport",
+            "importPath": "/volume/density",
+            "field": null
+          },
+          "descriptor": null
+        },
+        {
+          "type": "definition",
+          "subType": "def",
+          "defType": "OpenVDBAsset",
+          "name": "density",
+          "descriptor": null,
+          "statements": [
+            {
+              "type": "declaration",
+              "keyword": null,
+              "defineType": "token",
+              "reference": "fieldName.timeSamples",
+              "value": {
+                "type": "objectValue",
+                "declarations": {
+                  "type": "objectDeclarationList",
+                  "values": [
+                    {
+                      "index": 1,
+                      "value": "density"
+                    },
+                    {
+                      "index": 2,
+                      "value": "density"
+                    }
+                  ]
+                }
+              },
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": null,
+              "defineType": "asset",
+              "reference": "filePath.timeSamples",
+              "value": {
+                "type": "objectValue",
+                "declarations": {
+                  "type": "objectDeclarationList",
+                  "values": [
+                    {
+                      "index": 1,
+                      "value": {
+                        "type": "externalReference",
+                        "referenceFile": {
+                          "type": "externalReferenceSrc",
+                          "src": "/home/mtucker/USD/pxr/usd/usdUtils/testenv/volumes/vol.1.vdb",
+                          "descriptor": null
+                        },
+                        "toImport": null
+                      }
+                    },
+                    {
+                      "index": 2,
+                      "value": {
+                        "type": "externalReference",
+                        "referenceFile": {
+                          "type": "externalReferenceSrc",
+                          "src": "/home/mtucker/USD/pxr/usd/usdUtils/testenv/volumes/vol.2.vdb",
+                          "descriptor": null
+                        },
+                        "toImport": null
+                      }
+                    }
+                  ]
+                }
+              },
+              "descriptor": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "definition",
+      "subType": "def",
+      "defType": "Cube",
+      "name": "cube",
+      "descriptor": {
+        "description": null,
+        "assignments": [
+          {
+            "type": "assignment",
+            "keyword": "prepend",
+            "identifier": "apiSchemas",
+            "value": [
+              "MaterialBindingAPI"
+            ]
+          }
+        ]
+      },
+      "statements": [
+        {
+          "type": "declaration",
+          "keyword": null,
+          "defineType": "rel",
+          "reference": "material:binding",
+          "value": {
+            "type": "externalReferenceImport",
+            "importPath": "/materials/usdpreviewsurface1",
+            "field": null
+          },
+          "descriptor": null
+        },
+        {
+          "type": "declaration",
+          "keyword": null,
+          "defineType": "double",
+          "reference": "size",
+          "value": 2,
+          "descriptor": null
+        },
+        {
+          "type": "declaration",
+          "keyword": null,
+          "defineType": "matrix4d",
+          "reference": "xformOp:transform",
+          "value": [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "descriptor": null
+        },
+        {
+          "type": "declaration",
+          "keyword": "uniform",
+          "defineType": "token[]",
+          "reference": "xformOpOrder",
+          "value": [
+            "xformOp:transform"
+          ],
+          "descriptor": null
+        }
+      ]
+    },
+    {
+      "type": "definition",
+      "subType": "def",
+      "defType": "Scope",
+      "name": "materials",
+      "descriptor": null,
+      "statements": [
+        {
+          "type": "definition",
+          "subType": "def",
+          "defType": "Material",
+          "name": "usdpreviewsurface1",
+          "descriptor": null,
+          "statements": [
+            {
+              "type": "declaration",
+              "keyword": null,
+              "defineType": "token",
+              "reference": "outputs:displacement.connect",
+              "value": {
+                "type": "externalReferenceImport",
+                "importPath": "/materials/usdpreviewsurface1/usdpreviewsurface1",
+                "field": "outputs:displacement"
+              },
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": null,
+              "defineType": "token",
+              "reference": "outputs:surface.connect",
+              "value": {
+                "type": "externalReferenceImport",
+                "importPath": "/materials/usdpreviewsurface1/usdpreviewsurface1",
+                "field": "outputs:surface"
+              },
+              "descriptor": null
+            },
+            {
+              "type": "definition",
+              "subType": "def",
+              "defType": "Shader",
+              "name": "usdpreviewsurface1",
+              "descriptor": null,
+              "statements": [
+                {
+                  "type": "declaration",
+                  "keyword": "uniform",
+                  "defineType": "token",
+                  "reference": "info:id",
+                  "value": "UsdPreviewSurface",
+                  "descriptor": null
+                },
+                {
+                  "type": "declaration",
+                  "keyword": null,
+                  "defineType": "color3f",
+                  "reference": "inputs:diffuseColor.connect",
+                  "value": {
+                    "type": "externalReferenceImport",
+                    "importPath": "/materials/usdpreviewsurface1/usduvtexture1",
+                    "field": "outputs:rgb"
+                  },
+                  "descriptor": null
+                },
+                {
+                  "type": "declaration",
+                  "keyword": null,
+                  "defineType": "token",
+                  "reference": "outputs:displacement",
+                  "value": null,
+                  "descriptor": null
+                },
+                {
+                  "type": "declaration",
+                  "keyword": null,
+                  "defineType": "token",
+                  "reference": "outputs:surface",
+                  "value": null,
+                  "descriptor": null
+                }
+              ]
+            },
+            {
+              "type": "definition",
+              "subType": "def",
+              "defType": "Shader",
+              "name": "usduvtexture1",
+              "descriptor": null,
+              "statements": [
+                {
+                  "type": "declaration",
+                  "keyword": "uniform",
+                  "defineType": "token",
+                  "reference": "info:id",
+                  "value": "UsdUVTexture",
+                  "descriptor": null
+                },
+                {
+                  "type": "declaration",
+                  "keyword": null,
+                  "defineType": "asset[]",
+                  "reference": "inputs:file.timeSamples",
+                  "value": {
+                    "type": "objectValue",
+                    "declarations": {
+                      "type": "objectDeclarationList",
+                      "values": [
+                        {
+                          "index": 1,
+                          "value": [
+                            {
+                              "type": "externalReference",
+                              "referenceFile": {
+                                "type": "externalReferenceSrc",
+                                "src": "/home/mtucker/USD/pxr/usd/usdUtils/testenv/textures/clr.1.png",
+                                "descriptor": null
+                              },
+                              "toImport": null
+                            },
+                            {
+                              "type": "externalReference",
+                              "referenceFile": {
+                                "type": "externalReferenceSrc",
+                                "src": "/home/mtucker/USD/pxr/usd/usdUtils/testenv/textures/clr.1.png",
+                                "descriptor": null
+                              },
+                              "toImport": null
+                            }
+                          ]
+                        },
+                        {
+                          "index": 2,
+                          "value": [
+                            {
+                              "type": "externalReference",
+                              "referenceFile": {
+                                "type": "externalReferenceSrc",
+                                "src": "/home/mtucker/USD/pxr/usd/usdUtils/testenv/textures/clr.2.png",
+                                "descriptor": null
+                              },
+                              "toImport": null
+                            },
+                            {
+                              "type": "externalReference",
+                              "referenceFile": {
+                                "type": "externalReferenceSrc",
+                                "src": "/home/mtucker/USD/pxr/usd/usdUtils/testenv/textures/clr.2.png",
+                                "descriptor": null
+                              },
+                              "toImport": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "descriptor": null
+                },
+                {
+                  "type": "declaration",
+                  "keyword": null,
+                  "defineType": "vector3f",
+                  "reference": "outputs:rgb",
+                  "value": null,
+                  "descriptor": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "descriptor": {
+    "description": null,
+    "assignments": [
+      {
+        "type": "assignment",
+        "keyword": null,
+        "identifier": "defaultPrim",
+        "value": "Sphere"
+      }
+    ]
+  },
+  "statements": [
+    {
+      "type": "definition",
+      "subType": "def",
+      "defType": "Sphere",
+      "name": "Sphere",
+      "descriptor": null,
+      "statements": [
+        {
+          "type": "definition",
+          "subType": "def",
+          "defType": "Xform",
+          "name": "ChildFromReference",
+          "descriptor": null,
+          "statements": [
+            {
+              "type": "declaration",
+              "keyword": null,
+              "defineType": "float",
+              "reference": "timeSamplesAcrossRef",
+              "value": null,
+              "descriptor": null
+            },
+            {
+              "type": "declaration",
+              "keyword": null,
+              "defineType": "float",
+              "reference": "timeSamplesAcrossRef.timeSamples",
+              "value": {
+                "type": "objectValue",
+                "declarations": {
+                  "type": "objectDeclarationList",
+                  "values": [
+                    {
+                      "index": 1,
+                      "value": 1
+                    },
+                    {
+                      "index": 10,
+                      "value": 10
+                    }
+                  ]
+                }
+              },
+              "descriptor": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

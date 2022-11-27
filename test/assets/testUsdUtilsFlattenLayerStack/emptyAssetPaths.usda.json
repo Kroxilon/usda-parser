@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "descriptor": null,
+  "statements": [
+    {
+      "type": "definition",
+      "subType": "def",
+      "defType": null,
+      "name": "Ref",
+      "descriptor": null,
+      "statements": []
+    },
+    {
+      "type": "definition",
+      "subType": "def",
+      "defType": null,
+      "name": "Test",
+      "descriptor": {
+        "description": null,
+        "assignments": [
+          {
+            "type": "assignment",
+            "keyword": null,
+            "identifier": "references",
+            "value": {
+              "type": "externalReferenceImport",
+              "importPath": "/Ref",
+              "field": null
+            }
+          }
+        ]
+      },
+      "statements": [
+        {
+          "type": "declaration",
+          "keyword": null,
+          "defineType": "asset",
+          "reference": "a",
+          "value": {
+            "type": "externalReference",
+            "referenceFile": {
+              "type": "externalReferenceSrc",
+              "src": "",
+              "descriptor": null
+            },
+            "toImport": null
+          },
+          "descriptor": null
+        },
+        {
+          "type": "declaration",
+          "keyword": null,
+          "defineType": "asset[]",
+          "reference": "b",
+          "value": [
+            {
+              "type": "externalReference",
+              "referenceFile": {
+                "type": "externalReferenceSrc",
+                "src": "",
+                "descriptor": null
+              },
+              "toImport": null
+            },
+            {
+              "type": "externalReference",
+              "referenceFile": {
+                "type": "externalReferenceSrc",
+                "src": "",
+                "descriptor": null
+              },
+              "toImport": null
+            }
+          ],
+          "descriptor": null
+        }
+      ]
+    }
+  ]
+}

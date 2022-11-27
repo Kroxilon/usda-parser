@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "descriptor": {
+    "description": null,
+    "assignments": [
+      {
+        "type": "assignment",
+        "keyword": null,
+        "identifier": "defaultPrim",
+        "value": "Sphere"
+      }
+    ]
+  },
+  "statements": [
+    {
+      "type": "definition",
+      "subType": "def",
+      "defType": "Sphere",
+      "name": "Sphere",
+      "descriptor": null,
+      "statements": [
+        {
+          "type": "declaration",
+          "keyword": null,
+          "defineType": "float3",
+          "reference": "xformOp:translate",
+          "value": null,
+          "descriptor": null
+        },
+        {
+          "type": "declaration",
+          "keyword": "uniform",
+          "defineType": "token[]",
+          "reference": "xformOpOrder",
+          "value": [
+            "xformOp:translate"
+          ],
+          "descriptor": null
+        }
+      ]
+    }
+  ]
+}

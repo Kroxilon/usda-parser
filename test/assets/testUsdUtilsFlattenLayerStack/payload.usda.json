@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "descriptor": {
+    "description": null,
+    "assignments": [
+      {
+        "type": "assignment",
+        "keyword": null,
+        "identifier": "defaultPrim",
+        "value": "Sphere"
+      }
+    ]
+  },
+  "statements": [
+    {
+      "type": "definition",
+      "subType": "def",
+      "defType": "Sphere",
+      "name": "Sphere",
+      "descriptor": null,
+      "statements": [
+        {
+          "type": "definition",
+          "subType": "def",
+          "defType": "Xform",
+          "name": "ChildFromPayload",
+          "descriptor": null,
+          "statements": []
+        }
+      ]
+    }
+  ]
+}

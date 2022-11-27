@@ -83,12 +83,14 @@ export interface USDA_ExternalReference {
 export interface USDA_ReferenceFile {
     type: USDA_ValueType.ExternalReferenceSrc;
     src: string;
+    descriptor: USDA_Descriptor | null;
 }
 
 export interface USDA_VariantDefinition {
     type: USDA_StatementType.VariantDef;
     name: string;
     definitions: USDA_Definition[];
+    descriptor: USDA_Descriptor | null;
 }
 
 export interface USDA_VariantSet {
@@ -110,7 +112,7 @@ export interface USDA_ClassDefinition {
     type: USDA_StatementType.ClassDefinition;
     id: null | string;
     name: string;
-    descriptor: USDA_Descriptor;
+    descriptor: USDA_Descriptor | null;
     classDeclarations: USDA_ClassDeclaration[];
 }
 
@@ -193,10 +195,18 @@ export enum USDA_AssignmentKeyword {
      */
     Prepend = 'prepend',
     Add = 'add',
+    Append = 'append',
+    Delete = 'delete',
 }
 
+// "varying" / "uniform" / "custom" / "prepend" / "append" / "delete" / "add"
 // noinspection JSUnusedGlobalSymbols
 export enum USDA_DeclarationKeyword {
+    Varying = 'varying',
     Uniform = 'uniform',
     Custom = 'custom',
+    Prepend = 'prepend',
+    Append = 'append',
+    Delete = 'delete',
+    Add = 'add',
 }
