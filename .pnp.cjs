@@ -32,7 +32,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:18.11.9"],\
             ["cross-env", "npm:7.0.3"],\
             ["peggy", "npm:2.0.1"],\
-            ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.1.0"],\
+            ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:3.0.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"],\
             ["vite", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:4.0.0"],\
             ["vitest", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:0.26.0"]\
@@ -548,7 +548,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:18.11.9"],\
             ["cross-env", "npm:7.0.3"],\
             ["peggy", "npm:2.0.1"],\
-            ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.1.0"],\
+            ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:3.0.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"],\
             ["vite", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:4.0.0"],\
             ["vitest", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:0.26.0"]\
@@ -3800,17 +3800,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["ts-pegjs", [\
-        ["npm:2.1.0", {\
-          "packageLocation": "./.yarn/cache/ts-pegjs-npm-2.1.0-a5ec3cac92-c726a086cb.zip/node_modules/ts-pegjs/",\
+        ["npm:3.0.0", {\
+          "packageLocation": "./.yarn/cache/ts-pegjs-npm-3.0.0-dd89963d88-3d78fc1467.zip/node_modules/ts-pegjs/",\
           "packageDependencies": [\
-            ["ts-pegjs", "npm:2.1.0"]\
+            ["ts-pegjs", "npm:3.0.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.1.0", {\
-          "packageLocation": "./.yarn/__virtual__/ts-pegjs-virtual-e05fb07f8b/0/cache/ts-pegjs-npm-2.1.0-a5ec3cac92-c726a086cb.zip/node_modules/ts-pegjs/",\
+        ["virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:3.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/ts-pegjs-virtual-07e472f1b9/0/cache/ts-pegjs-npm-3.0.0-dd89963d88-3d78fc1467.zip/node_modules/ts-pegjs/",\
           "packageDependencies": [\
-            ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.1.0"],\
+            ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:3.0.0"],\
             ["@types/peggy", null],\
             ["peggy", "npm:2.0.1"]\
           ],\
