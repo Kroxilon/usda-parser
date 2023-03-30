@@ -31,7 +31,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@changesets/cli", "npm:2.25.2"],\
             ["@types/node", "npm:18.15.11"],\
             ["cross-env", "npm:7.0.3"],\
-            ["peggy", "npm:2.0.1"],\
+            ["peggy", "npm:3.0.2"],\
             ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.1.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"],\
             ["vite", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:4.1.4"],\
@@ -701,7 +701,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@changesets/cli", "npm:2.25.2"],\
             ["@types/node", "npm:18.15.11"],\
             ["cross-env", "npm:7.0.3"],\
-            ["peggy", "npm:2.0.1"],\
+            ["peggy", "npm:3.0.2"],\
             ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.1.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"],\
             ["vite", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:4.1.4"],\
@@ -1417,10 +1417,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["commander", [\
-        ["npm:9.4.0", {\
-          "packageLocation": "./.yarn/cache/commander-npm-9.4.0-3cc611cdba-a322de584a.zip/node_modules/commander/",\
+        ["npm:10.0.0", {\
+          "packageLocation": "./.yarn/cache/commander-npm-10.0.0-2e6f452447-9f6495651f.zip/node_modules/commander/",\
           "packageDependencies": [\
-            ["commander", "npm:9.4.0"]\
+            ["commander", "npm:10.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3320,11 +3320,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["peggy", [\
-        ["npm:2.0.1", {\
-          "packageLocation": "./.yarn/cache/peggy-npm-2.0.1-24fd2f97e1-0ce0ee8f9f.zip/node_modules/peggy/",\
+        ["npm:3.0.2", {\
+          "packageLocation": "./.yarn/cache/peggy-npm-3.0.2-059d5d91c2-bdca2291a2.zip/node_modules/peggy/",\
           "packageDependencies": [\
-            ["peggy", "npm:2.0.1"],\
-            ["commander", "npm:9.4.0"],\
+            ["peggy", "npm:3.0.2"],\
+            ["commander", "npm:10.0.0"],\
             ["source-map-generator", "npm:0.8.0"]\
           ],\
           "linkType": "HARD"\
@@ -4227,7 +4227,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.1.0"],\
             ["@types/peggy", null],\
-            ["peggy", "npm:2.0.1"]\
+            ["peggy", "npm:3.0.2"]\
           ],\
           "packagePeers": [\
             "@types/peggy",\
