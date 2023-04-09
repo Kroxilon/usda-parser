@@ -616,7 +616,7 @@ __metadata:
     "@types/node": ^18.11.9
     cross-env: ^7.0.3
     peggy: ^3.0.0
-    ts-pegjs: ^2.1.0
+    ts-pegjs: ^3.0.0
     typescript: 5.0.4
     vite: ^4.0.0
     vitest: ^0.30.0
@@ -3829,14 +3829,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-pegjs@npm:^2.1.0":
-  version: 2.2.1
-  resolution: "ts-pegjs@npm:2.2.1"
+"ts-pegjs@npm:^3.0.0":
+  version: 3.1.0
+  resolution: "ts-pegjs@npm:3.1.0"
   peerDependencies:
     peggy: ^2.0.1
   bin:
     tspegjs: src/cli.js
-  checksum: de2f309e2a9213af04f0d052d7a5d75d5d53620c2f746c587eed83b201c08cd03760ba0fa6cb13325c608524246c43a9dae594072ca6759c3e293f038fa3e8a0
+  checksum: fd6fdc483986c08e824de3aea937a6bba776be65d96f12d6e18734a891a27bd7f526bbb3df334c00f09f035875685726af4378a43ac1bb10a5771f2d6166096e
   languageName: node
   linkType: hard
 
