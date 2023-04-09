@@ -43,7 +43,7 @@
     "ts-pegjs": "^2.1.0",
     "typescript": "5.0.4",
     "vite": "^4.0.0",
-    "vitest": "^0.28.0"
+    "vitest": "^0.30.0"
   },
   "packageManager": "yarn@3.5.0"
 }
