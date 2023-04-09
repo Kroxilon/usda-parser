@@ -3836,13 +3836,13 @@ __metadata:
   linkType: hard
 
 "ts-pegjs@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "ts-pegjs@npm:2.1.0"
+  version: 2.2.1
+  resolution: "ts-pegjs@npm:2.2.1"
   peerDependencies:
     peggy: ^2.0.1
   bin:
     tspegjs: src/cli.js
-  checksum: c726a086cba264e0c607a661a64fa5f9dd721d7779f44525d82f1536e6fdac6f70f866a347b858a41a28d2d2db8043d8751f4427b1cbabff0d5e74ede0d9fc95
+  checksum: de2f309e2a9213af04f0d052d7a5d75d5d53620c2f746c587eed83b201c08cd03760ba0fa6cb13325c608524246c43a9dae594072ca6759c3e293f038fa3e8a0
   languageName: node
   linkType: hard
 
