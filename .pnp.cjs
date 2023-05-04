@@ -29,7 +29,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@changesets/cli", "npm:2.26.1"],\
-            ["@types/node", "npm:18.15.11"],\
+            ["@types/node", "npm:18.16.3"],\
             ["cross-env", "npm:7.0.3"],\
             ["peggy", "npm:3.0.2"],\
             ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.2.1"],\
@@ -717,7 +717,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@kroxilon/usda-parser", "workspace:."],\
             ["@changesets/cli", "npm:2.26.1"],\
-            ["@types/node", "npm:18.15.11"],\
+            ["@types/node", "npm:18.16.3"],\
             ["cross-env", "npm:7.0.3"],\
             ["peggy", "npm:3.0.2"],\
             ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.2.1"],\
@@ -864,17 +864,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:18.11.9", {\
-          "packageLocation": "./.yarn/cache/@types-node-npm-18.11.9-d21dd6ec05-cc0aae109e.zip/node_modules/@types/node/",\
+        ["npm:18.16.3", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-18.16.3-4036a5f5f3-816b39d45b.zip/node_modules/@types/node/",\
           "packageDependencies": [\
-            ["@types/node", "npm:18.11.9"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["npm:18.15.11", {\
-          "packageLocation": "./.yarn/cache/@types-node-npm-18.15.11-fd8ceaaffd-977b4ad047.zip/node_modules/@types/node/",\
-          "packageDependencies": [\
-            ["@types/node", "npm:18.15.11"]\
+            ["@types/node", "npm:18.16.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4390,7 +4383,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["vite", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:4.1.4"],\
             ["@types/less", null],\
-            ["@types/node", "npm:18.15.11"],\
+            ["@types/node", "npm:18.16.3"],\
             ["@types/sass", null],\
             ["@types/stylus", null],\
             ["@types/sugarss", null],\
@@ -4426,7 +4419,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["vite", "virtual:33e680d9bfc5f0b2de50e40c015f02b5c3ede33c9b7ace0f2c40ef1c85cccff169b6c10c64e1ac1c0b856c8fe06e4ba330385c5066f499541dd496acf58a8101#npm:4.0.2"],\
             ["@types/less", null],\
-            ["@types/node", "npm:18.11.9"],\
+            ["@types/node", "npm:18.16.3"],\
             ["@types/sass", null],\
             ["@types/stylus", null],\
             ["@types/sugarss", null],\
@@ -4527,7 +4520,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/edge-runtime__vm", null],\
             ["@types/happy-dom", null],\
             ["@types/jsdom", null],\
-            ["@types/node", "npm:18.11.9"],\
+            ["@types/node", "npm:18.16.3"],\
             ["@types/playwright", null],\
             ["@types/safaridriver", null],\
             ["@types/vitest__browser", null],\
