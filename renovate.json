@@ -11,7 +11,5 @@
   "labels": [
     "dependencies"
   ],
-  "stabilityDays": 3,
-  "ignoreDepsWithIssues": true,
-  "ignoreDepsThatArePrereleases": true
+  "stabilityDays": 3
 }
