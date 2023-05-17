@@ -2,5 +2,16 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base"
-  ]
+  ],
+  "automergeType": "branch",
+  "automerge": true,
+  "prCreation": "not-pending",
+  "branchPrefix": "renovate/",
+  "commitMessagePrefix": "[REN] ",
+  "labels": [
+    "dependencies"
+  ],
+  "stabilityDays": 3,
+  "ignoreDepsWithIssues": true,
+  "ignoreDepsThatArePrereleases": true
 }
