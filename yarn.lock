@@ -469,7 +469,7 @@ __metadata:
     "@changesets/cli": "npm:^2.25.2"
     "@types/node": "npm:^20.0.0"
     cross-env: "npm:^7.0.3"
-    peggy: "npm:^3.0.0"
+    peggy: "npm:^4.0.0"
     ts-pegjs: "npm:^2.1.0"
     typescript: "npm:5.3.3"
     vite: "npm:^5.0.0"
@@ -1163,10 +1163,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^10.0.0":
-  version: 10.0.0
-  resolution: "commander@npm:10.0.0"
-  checksum: 10c0/f1824812019664598ba7409c489cb5c15d33f65b43b08952a84e87e0023144c08d101e2f43af968cf2d464c0d667b50a2a9780f4a6c52915324f54fe9b451a31
+"commander@npm:^12.0.0":
+  version: 12.0.0
+  resolution: "commander@npm:12.0.0"
+  checksum: 10c0/e51cac1d1d0aa1f76581981d2256a9249497e08f5a370bf63b0dfc7e76a647fc8cbc3ddd507928f2bdca6c514c83834e87e2687ace2fe2fc7cc7e631bf80f83d
   languageName: node
   linkType: hard
 
@@ -2981,15 +2981,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"peggy@npm:^3.0.0":
-  version: 3.0.2
-  resolution: "peggy@npm:3.0.2"
+"peggy@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "peggy@npm:4.0.0"
   dependencies:
-    commander: "npm:^10.0.0"
+    commander: "npm:^12.0.0"
     source-map-generator: "npm:0.8.0"
   bin:
     peggy: bin/peggy.js
-  checksum: 10c0/73c61e4478e015d6ba78736914d53b464318649f4727164d58ded3ce0f71d58e009451dbb8d01de53f2a30378aec9cdd44bc76c926dc9ba7d513f12aa3923cb1
+  checksum: 10c0/04b2b4b8f2b6ee82fbc67ad23f312eb48fab2f09b301abffccc0573fda5b4bf2e17c9104d5660edee9cce0483fbbb96b35ee9f00a1b20d5f2a9f657549e8d1a5
   languageName: node
   linkType: hard
 
