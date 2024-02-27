@@ -550,6 +550,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@peggyjs/from-mem@npm:1.2.1":
+  version: 1.2.1
+  resolution: "@peggyjs/from-mem@npm:1.2.1"
+  dependencies:
+    semver: "npm:7.6.0"
+  checksum: 10c0/ef9e488e057ddb75c5778e6881ebbb0179fba0c5db972ee3aa754505a547499a46da79cf454fec86139432d23fef46b6244d28986691dede56248561527d4f4e
+  languageName: node
+  linkType: hard
+
 "@rollup/rollup-android-arm-eabi@npm:4.5.0":
   version: 4.5.0
   resolution: "@rollup/rollup-android-arm-eabi@npm:4.5.0"
@@ -2989,14 +2998,15 @@ __metadata:
   linkType: hard
 
 "peggy@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "peggy@npm:4.0.0"
+  version: 4.0.2
+  resolution: "peggy@npm:4.0.2"
   dependencies:
+    "@peggyjs/from-mem": "npm:1.2.1"
     commander: "npm:^12.0.0"
     source-map-generator: "npm:0.8.0"
   bin:
     peggy: bin/peggy.js
-  checksum: 10c0/04b2b4b8f2b6ee82fbc67ad23f312eb48fab2f09b301abffccc0573fda5b4bf2e17c9104d5660edee9cce0483fbbb96b35ee9f00a1b20d5f2a9f657549e8d1a5
+  checksum: 10c0/7b08616255f03d24af6f716363f880ac680523421038eab7be508fc8a5a01c464a7022f5709cb5dd063297d0adba638fdc396c6571e0fec282583055e6b1ce59
   languageName: node
   linkType: hard
 
@@ -3376,6 +3386,17 @@ __metadata:
   bin:
     semver: ./bin/semver
   checksum: 10c0/d4884f2aeca28bff35d0bd40ff0a9b2dfc4b36a883bf0ea5dc15d10d9a01bdc9041035b05f825d4b5ac8a56e490703dbf0d986d054de82cc5e9bad3f02ca6e00
+  languageName: node
+  linkType: hard
+
+"semver@npm:7.6.0":
+  version: 7.6.0
+  resolution: "semver@npm:7.6.0"
+  dependencies:
+    lru-cache: "npm:^6.0.0"
+  bin:
+    semver: bin/semver.js
+  checksum: 10c0/fbfe717094ace0aa8d6332d7ef5ce727259815bd8d8815700853f4faf23aacbd7192522f0dc5af6df52ef4fa85a355ebd2f5d39f554bd028200d6cf481ab9b53
   languageName: node
   linkType: hard
 
