@@ -29,7 +29,7 @@ const RAW_RUNTIME_STATE =
           ["@changesets/cli", "npm:2.27.1"],\
           ["@types/node", "npm:20.11.20"],\
           ["cross-env", "npm:7.0.3"],\
-          ["peggy", "npm:4.0.0"],\
+          ["peggy", "npm:4.0.2"],\
           ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.2.1"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"],\
           ["vite", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:5.1.4"],\
@@ -572,7 +572,7 @@ const RAW_RUNTIME_STATE =
           ["@changesets/cli", "npm:2.27.1"],\
           ["@types/node", "npm:20.11.20"],\
           ["cross-env", "npm:7.0.3"],\
-          ["peggy", "npm:4.0.0"],\
+          ["peggy", "npm:4.0.2"],\
           ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.2.1"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"],\
           ["vite", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:5.1.4"],\
@@ -658,6 +658,16 @@ const RAW_RUNTIME_STATE =
           ["@npmcli/move-file", "npm:2.0.1"],\
           ["mkdirp", "npm:1.0.4"],\
           ["rimraf", "npm:3.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@peggyjs/from-mem", [\
+      ["npm:1.2.1", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@peggyjs-from-mem-npm-1.2.1-47a76819ab-10c0.zip/node_modules/@peggyjs/from-mem/",\
+        "packageDependencies": [\
+          ["@peggyjs/from-mem", "npm:1.2.1"],\
+          ["semver", "npm:7.6.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3347,10 +3357,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["peggy", [\
-      ["npm:4.0.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/peggy-npm-4.0.0-36fc869d01-10c0.zip/node_modules/peggy/",\
+      ["npm:4.0.2", {\
+        "packageLocation": "../../../../cache/others/berry/cache/peggy-npm-4.0.2-5317e8c8c8-10c0.zip/node_modules/peggy/",\
         "packageDependencies": [\
-          ["peggy", "npm:4.0.0"],\
+          ["peggy", "npm:4.0.2"],\
+          ["@peggyjs/from-mem", "npm:1.2.1"],\
           ["commander", "npm:12.0.0"],\
           ["source-map-generator", "npm:0.8.0"]\
         ],\
@@ -3762,6 +3773,14 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/semver-npm-7.5.3-275095dbf3-10c0.zip/node_modules/semver/",\
         "packageDependencies": [\
           ["semver", "npm:7.5.3"],\
+          ["lru-cache", "npm:6.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:7.6.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/semver-npm-7.6.0-f4630729f6-10c0.zip/node_modules/semver/",\
+        "packageDependencies": [\
+          ["semver", "npm:7.6.0"],\
           ["lru-cache", "npm:6.0.0"]\
         ],\
         "linkType": "HARD"\
@@ -4233,7 +4252,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.2.1"],\
           ["@types/peggy", null],\
-          ["peggy", "npm:4.0.0"]\
+          ["peggy", "npm:4.0.2"]\
         ],\
         "packagePeers": [\
           "@types/peggy",\
