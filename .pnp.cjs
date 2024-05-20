@@ -27,7 +27,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@changesets/cli", "npm:2.27.1"],\
+          ["@changesets/cli", "npm:2.27.3"],\
           ["@types/node", "npm:20.12.12"],\
           ["cross-env", "npm:7.0.3"],\
           ["peggy", "npm:4.0.2"],\
@@ -89,10 +89,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@changesets/apply-release-plan", [\
-      ["npm:7.0.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@changesets-apply-release-plan-npm-7.0.0-13a5369f95-10c0.zip/node_modules/@changesets/apply-release-plan/",\
+      ["npm:7.0.1", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@changesets-apply-release-plan-npm-7.0.1-a6d044f32c-10c0.zip/node_modules/@changesets/apply-release-plan/",\
         "packageDependencies": [\
-          ["@changesets/apply-release-plan", "npm:7.0.0"],\
+          ["@changesets/apply-release-plan", "npm:7.0.1"],\
           ["@babel/runtime", "npm:7.21.0"],\
           ["@changesets/config", "npm:3.0.0"],\
           ["@changesets/get-version-range-type", "npm:0.4.0"],\
@@ -136,12 +136,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@changesets/cli", [\
-      ["npm:2.27.1", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@changesets-cli-npm-2.27.1-2cfd25f1c6-10c0.zip/node_modules/@changesets/cli/",\
+      ["npm:2.27.3", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@changesets-cli-npm-2.27.3-77724762d1-10c0.zip/node_modules/@changesets/cli/",\
         "packageDependencies": [\
-          ["@changesets/cli", "npm:2.27.1"],\
+          ["@changesets/cli", "npm:2.27.3"],\
           ["@babel/runtime", "npm:7.21.0"],\
-          ["@changesets/apply-release-plan", "npm:7.0.0"],\
+          ["@changesets/apply-release-plan", "npm:7.0.1"],\
           ["@changesets/assemble-release-plan", "npm:6.0.0"],\
           ["@changesets/changelog-git", "npm:0.2.0"],\
           ["@changesets/config", "npm:3.0.0"],\
@@ -153,7 +153,7 @@ const RAW_RUNTIME_STATE =
           ["@changesets/pre", "npm:2.0.0"],\
           ["@changesets/read", "npm:0.6.0"],\
           ["@changesets/types", "npm:6.0.0"],\
-          ["@changesets/write", "npm:0.3.0"],\
+          ["@changesets/write", "npm:0.3.1"],\
           ["@manypkg/get-packages", "npm:1.1.3"],\
           ["@types/semver", "npm:7.5.0"],\
           ["ansi-colors", "npm:4.1.3"],\
@@ -326,10 +326,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@changesets/write", [\
-      ["npm:0.3.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@changesets-write-npm-0.3.0-6d458b11e0-10c0.zip/node_modules/@changesets/write/",\
+      ["npm:0.3.1", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@changesets-write-npm-0.3.1-8daee7e46a-10c0.zip/node_modules/@changesets/write/",\
         "packageDependencies": [\
-          ["@changesets/write", "npm:0.3.0"],\
+          ["@changesets/write", "npm:0.3.1"],\
           ["@babel/runtime", "npm:7.21.0"],\
           ["@changesets/types", "npm:6.0.0"],\
           ["fs-extra", "npm:7.0.1"],\
@@ -579,7 +579,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@kroxilon/usda-parser", "workspace:."],\
-          ["@changesets/cli", "npm:2.27.1"],\
+          ["@changesets/cli", "npm:2.27.3"],\
           ["@types/node", "npm:20.12.12"],\
           ["cross-env", "npm:7.0.3"],\
           ["peggy", "npm:4.0.2"],\
