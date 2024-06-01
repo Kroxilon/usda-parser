@@ -28,7 +28,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@changesets/cli", "npm:2.27.5"],\
-          ["@types/node", "npm:20.12.12"],\
+          ["@types/node", "npm:20.13.0"],\
           ["cross-env", "npm:7.0.3"],\
           ["peggy", "npm:4.0.2"],\
           ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.2.1"],\
@@ -595,7 +595,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@kroxilon/usda-parser", "workspace:."],\
           ["@changesets/cli", "npm:2.27.5"],\
-          ["@types/node", "npm:20.12.12"],\
+          ["@types/node", "npm:20.13.0"],\
           ["cross-env", "npm:7.0.3"],\
           ["peggy", "npm:4.0.2"],\
           ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.2.1"],\
@@ -858,10 +858,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:20.12.12", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@types-node-npm-20.12.12-3a45001f1f-10c0.zip/node_modules/@types/node/",\
+      ["npm:20.13.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@types-node-npm-20.13.0-88c0bd0276-10c0.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:20.12.12"],\
+          ["@types/node", "npm:20.13.0"],\
           ["undici-types", "npm:5.26.5"]\
         ],\
         "linkType": "HARD"\
@@ -4456,7 +4456,7 @@ const RAW_RUNTIME_STATE =
           ["vite", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:5.2.12"],\
           ["@types/less", null],\
           ["@types/lightningcss", null],\
-          ["@types/node", "npm:20.12.12"],\
+          ["@types/node", "npm:20.13.0"],\
           ["@types/sass", null],\
           ["@types/stylus", null],\
           ["@types/sugarss", null],\
@@ -4559,7 +4559,7 @@ const RAW_RUNTIME_STATE =
           ["@types/edge-runtime__vm", null],\
           ["@types/happy-dom", null],\
           ["@types/jsdom", null],\
-          ["@types/node", "npm:20.12.12"],\
+          ["@types/node", "npm:20.13.0"],\
           ["@types/vitest__browser", null],\
           ["@types/vitest__ui", null],\
           ["@vitest/browser", null],\
