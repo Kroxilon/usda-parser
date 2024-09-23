@@ -33,7 +33,7 @@ const RAW_RUNTIME_STATE =
           ["peggy", "npm:4.0.3"],\
           ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.2.1"],\
           ["typescript", "patch:typescript@npm%3A5.6.2#optional!builtin<compat/typescript>::version=5.6.2&hash=8c6c40"],\
-          ["vite", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:5.4.6"],\
+          ["vite", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:5.4.7"],\
           ["vitest", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.1.1"]\
         ],\
         "linkType": "SOFT"\
@@ -538,7 +538,7 @@ const RAW_RUNTIME_STATE =
           ["peggy", "npm:4.0.3"],\
           ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.2.1"],\
           ["typescript", "patch:typescript@npm%3A5.6.2#optional!builtin<compat/typescript>::version=5.6.2&hash=8c6c40"],\
-          ["vite", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:5.4.6"],\
+          ["vite", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:5.4.7"],\
           ["vitest", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.1.1"]\
         ],\
         "linkType": "SOFT"\
@@ -855,7 +855,7 @@ const RAW_RUNTIME_STATE =
           ["estree-walker", "npm:3.0.3"],\
           ["magic-string", "npm:0.30.11"],\
           ["msw", null],\
-          ["vite", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:5.4.6"]\
+          ["vite", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:5.4.7"]\
         ],\
         "packagePeers": [\
           "@types/msw",\
@@ -2970,17 +2970,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["vite", [\
-      ["npm:5.4.6", {\
-        "packageLocation": "../../../../cache/others/berry/cache/vite-npm-5.4.6-129b7665fc-10c0.zip/node_modules/vite/",\
+      ["npm:5.4.7", {\
+        "packageLocation": "../../../../cache/others/berry/cache/vite-npm-5.4.7-7fb1bc703e-10c0.zip/node_modules/vite/",\
         "packageDependencies": [\
-          ["vite", "npm:5.4.6"]\
+          ["vite", "npm:5.4.7"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:5.4.6", {\
-        "packageLocation": "./.yarn/__virtual__/vite-virtual-eef34cff24/5/cache/others/berry/cache/vite-npm-5.4.6-129b7665fc-10c0.zip/node_modules/vite/",\
+      ["virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:5.4.7", {\
+        "packageLocation": "./.yarn/__virtual__/vite-virtual-139fc56796/5/cache/others/berry/cache/vite-npm-5.4.7-7fb1bc703e-10c0.zip/node_modules/vite/",\
         "packageDependencies": [\
-          ["vite", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:5.4.6"],\
+          ["vite", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:5.4.7"],\
           ["@types/less", null],\
           ["@types/lightningcss", null],\
           ["@types/node", "npm:20.16.5"],\
@@ -3020,10 +3020,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:ed03a7aaf4a0407e5bc95e96b20006302c3bef9d0b2da597b0d0023d3b23df044cd2d4225dc5a7a366308da964c370368a5d855a11777bea860a955292beb3b8#npm:5.4.6", {\
-        "packageLocation": "./.yarn/__virtual__/vite-virtual-590dd52b83/5/cache/others/berry/cache/vite-npm-5.4.6-129b7665fc-10c0.zip/node_modules/vite/",\
+      ["virtual:ed03a7aaf4a0407e5bc95e96b20006302c3bef9d0b2da597b0d0023d3b23df044cd2d4225dc5a7a366308da964c370368a5d855a11777bea860a955292beb3b8#npm:5.4.7", {\
+        "packageLocation": "./.yarn/__virtual__/vite-virtual-3c53b469c4/5/cache/others/berry/cache/vite-npm-5.4.7-7fb1bc703e-10c0.zip/node_modules/vite/",\
         "packageDependencies": [\
-          ["vite", "virtual:ed03a7aaf4a0407e5bc95e96b20006302c3bef9d0b2da597b0d0023d3b23df044cd2d4225dc5a7a366308da964c370368a5d855a11777bea860a955292beb3b8#npm:5.4.6"],\
+          ["vite", "virtual:ed03a7aaf4a0407e5bc95e96b20006302c3bef9d0b2da597b0d0023d3b23df044cd2d4225dc5a7a366308da964c370368a5d855a11777bea860a955292beb3b8#npm:5.4.7"],\
           ["@types/less", null],\
           ["@types/lightningcss", null],\
           ["@types/node", null],\
@@ -3072,7 +3072,7 @@ const RAW_RUNTIME_STATE =
           ["cac", "npm:6.7.14"],\
           ["debug", "virtual:ed03a7aaf4a0407e5bc95e96b20006302c3bef9d0b2da597b0d0023d3b23df044cd2d4225dc5a7a366308da964c370368a5d855a11777bea860a955292beb3b8#npm:4.3.7"],\
           ["pathe", "npm:1.1.2"],\
-          ["vite", "virtual:ed03a7aaf4a0407e5bc95e96b20006302c3bef9d0b2da597b0d0023d3b23df044cd2d4225dc5a7a366308da964c370368a5d855a11777bea860a955292beb3b8#npm:5.4.6"]\
+          ["vite", "virtual:ed03a7aaf4a0407e5bc95e96b20006302c3bef9d0b2da597b0d0023d3b23df044cd2d4225dc5a7a366308da964c370368a5d855a11777bea860a955292beb3b8#npm:5.4.7"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3116,7 +3116,7 @@ const RAW_RUNTIME_STATE =
           ["tinyexec", "npm:0.3.0"],\
           ["tinypool", "npm:1.0.0"],\
           ["tinyrainbow", "npm:1.2.0"],\
-          ["vite", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:5.4.6"],\
+          ["vite", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:5.4.7"],\
           ["vite-node", "npm:2.1.1"],\
           ["why-is-node-running", "npm:2.3.0"]\
         ],\
