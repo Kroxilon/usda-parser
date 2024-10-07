@@ -27,7 +27,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@changesets/cli", "npm:2.27.8"],\
+          ["@changesets/cli", "npm:2.27.9"],\
           ["@types/node", "npm:20.16.10"],\
           ["cross-env", "npm:7.0.3"],\
           ["peggy", "npm:4.0.3"],\
@@ -97,10 +97,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@changesets/cli", [\
-      ["npm:2.27.8", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@changesets-cli-npm-2.27.8-e6f51a6449-10c0.zip/node_modules/@changesets/cli/",\
+      ["npm:2.27.9", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@changesets-cli-npm-2.27.9-5df61a909e-10c0.zip/node_modules/@changesets/cli/",\
         "packageDependencies": [\
-          ["@changesets/cli", "npm:2.27.8"],\
+          ["@changesets/cli", "npm:2.27.9"],\
           ["@changesets/apply-release-plan", "npm:7.0.5"],\
           ["@changesets/assemble-release-plan", "npm:6.0.4"],\
           ["@changesets/changelog-git", "npm:0.2.0"],\
@@ -116,14 +116,12 @@ const RAW_RUNTIME_STATE =
           ["@changesets/types", "npm:6.0.0"],\
           ["@changesets/write", "npm:0.3.2"],\
           ["@manypkg/get-packages", "npm:1.1.3"],\
-          ["@types/semver", "npm:7.5.0"],\
           ["ansi-colors", "npm:4.1.3"],\
           ["ci-info", "npm:3.9.0"],\
           ["enquirer", "npm:2.3.6"],\
           ["external-editor", "npm:3.1.0"],\
           ["fs-extra", "npm:7.0.1"],\
           ["mri", "npm:1.2.0"],\
-          ["outdent", "npm:0.5.0"],\
           ["p-limit", "npm:2.3.0"],\
           ["package-manager-detector", "npm:0.2.0"],\
           ["picocolors", "npm:1.1.0"],\
@@ -532,7 +530,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@kroxilon/usda-parser", "workspace:."],\
-          ["@changesets/cli", "npm:2.27.8"],\
+          ["@changesets/cli", "npm:2.27.9"],\
           ["@types/node", "npm:20.16.10"],\
           ["cross-env", "npm:7.0.3"],\
           ["peggy", "npm:4.0.3"],\
@@ -810,15 +808,6 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@types/node", "npm:20.16.10"],\
           ["undici-types", "npm:6.19.8"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@types/semver", [\
-      ["npm:7.5.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@types-semver-npm-7.5.0-4823ff34be-10c0.zip/node_modules/@types/semver/",\
-        "packageDependencies": [\
-          ["@types/semver", "npm:7.5.0"]\
         ],\
         "linkType": "HARD"\
       }]\

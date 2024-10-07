@@ -59,8 +59,8 @@ __metadata:
   linkType: hard
 
 "@changesets/cli@npm:^2.25.2":
-  version: 2.27.8
-  resolution: "@changesets/cli@npm:2.27.8"
+  version: 2.27.9
+  resolution: "@changesets/cli@npm:2.27.9"
   dependencies:
     "@changesets/apply-release-plan": "npm:^7.0.5"
     "@changesets/assemble-release-plan": "npm:^6.0.4"
@@ -77,14 +77,12 @@ __metadata:
     "@changesets/types": "npm:^6.0.0"
     "@changesets/write": "npm:^0.3.2"
     "@manypkg/get-packages": "npm:^1.1.3"
-    "@types/semver": "npm:^7.5.0"
     ansi-colors: "npm:^4.1.3"
     ci-info: "npm:^3.7.0"
     enquirer: "npm:^2.3.0"
     external-editor: "npm:^3.1.0"
     fs-extra: "npm:^7.0.1"
     mri: "npm:^1.2.0"
-    outdent: "npm:^0.5.0"
     p-limit: "npm:^2.2.0"
     package-manager-detector: "npm:^0.2.0"
     picocolors: "npm:^1.1.0"
@@ -94,7 +92,7 @@ __metadata:
     term-size: "npm:^2.1.0"
   bin:
     changeset: bin.js
-  checksum: 10c0/e3c4443c2fa0e49cc6c2755f4beab7c3152a9b509620ceb8b0425fcf884c59e3a738b0163a8eea6b2a698a789c6d005c0bd4dc787421aa9053458a740acde91d
+  checksum: 10c0/bcd651aa177eb58eaee4c3c86f961c5411dbe7c77a9b421d22cd4a422f4802795d1cd51be6769c16bb30d3f88dc8a06ab4977fc6457430373b680fd5ee59b59a
   languageName: node
   linkType: hard
 
@@ -661,13 +659,6 @@ __metadata:
   dependencies:
     undici-types: "npm:~6.19.2"
   checksum: 10c0/c0c0c7ecb083ec638c2118e54b5242bb4c39a75608cbac9475cf15aaceb64b8bc997a87a0798e700a81d61651c8a7750ae0455be0f0996ada6e8b2bb818d90c5
-  languageName: node
-  linkType: hard
-
-"@types/semver@npm:^7.5.0":
-  version: 7.5.0
-  resolution: "@types/semver@npm:7.5.0"
-  checksum: 10c0/ca4ba4642b5972b6e88e73c5bc02bbaceb8d76bce71748d86e3e95042d4e5a44603113a1dcd2cb9b73ad6f91f6e4ab73185eb41bbfc9c73b11f0ed3db3b7443a
   languageName: node
   linkType: hard
 
