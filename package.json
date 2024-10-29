@@ -37,7 +37,7 @@
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.25.2",
-    "@types/node": "^20.0.0",
+    "@types/node": "^22.0.0",
     "cross-env": "^7.0.3",
     "peggy": "^4.0.0",
     "ts-pegjs": "^2.1.0",
