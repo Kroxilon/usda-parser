@@ -27,7 +27,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@changesets/cli", "npm:2.27.11"],\
+          ["@changesets/cli", "npm:2.27.12"],\
           ["@types/node", "npm:22.10.10"],\
           ["cross-env", "npm:7.0.3"],\
           ["peggy", "npm:4.2.0"],\
@@ -50,10 +50,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@changesets/apply-release-plan", [\
-      ["npm:7.0.7", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@changesets-apply-release-plan-npm-7.0.7-dca8b63a48-10c0.zip/node_modules/@changesets/apply-release-plan/",\
+      ["npm:7.0.8", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@changesets-apply-release-plan-npm-7.0.8-e5b7eb2ce3-10c0.zip/node_modules/@changesets/apply-release-plan/",\
         "packageDependencies": [\
-          ["@changesets/apply-release-plan", "npm:7.0.7"],\
+          ["@changesets/apply-release-plan", "npm:7.0.8"],\
           ["@changesets/config", "npm:3.0.5"],\
           ["@changesets/get-version-range-type", "npm:0.4.0"],\
           ["@changesets/git", "npm:3.0.2"],\
@@ -97,11 +97,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@changesets/cli", [\
-      ["npm:2.27.11", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@changesets-cli-npm-2.27.11-fc68e5c2cd-10c0.zip/node_modules/@changesets/cli/",\
+      ["npm:2.27.12", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@changesets-cli-npm-2.27.12-af730ae471-10c0.zip/node_modules/@changesets/cli/",\
         "packageDependencies": [\
-          ["@changesets/cli", "npm:2.27.11"],\
-          ["@changesets/apply-release-plan", "npm:7.0.7"],\
+          ["@changesets/cli", "npm:2.27.12"],\
+          ["@changesets/apply-release-plan", "npm:7.0.8"],\
           ["@changesets/assemble-release-plan", "npm:6.0.5"],\
           ["@changesets/changelog-git", "npm:0.2.0"],\
           ["@changesets/config", "npm:3.0.5"],\
@@ -548,7 +548,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@kroxilon/usda-parser", "workspace:."],\
-          ["@changesets/cli", "npm:2.27.11"],\
+          ["@changesets/cli", "npm:2.27.12"],\
           ["@types/node", "npm:22.10.10"],\
           ["cross-env", "npm:7.0.3"],\
           ["peggy", "npm:4.2.0"],\
