@@ -41,7 +41,7 @@
     "cross-env": "^7.0.3",
     "peggy": "^4.0.0",
     "ts-pegjs": "^2.1.0",
-    "typescript": "5.7.3",
+    "typescript": "5.8.2",
     "vite": "^6.0.0",
     "vitest": "^3.0.0"
   },
