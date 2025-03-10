@@ -34,7 +34,7 @@ const RAW_RUNTIME_STATE =
           ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.2.1"],\
           ["typescript", "patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=5786d5"],\
           ["vite", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:6.2.0"],\
-          ["vitest", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:3.0.7"]\
+          ["vitest", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:3.0.8"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -555,7 +555,7 @@ const RAW_RUNTIME_STATE =
           ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.2.1"],\
           ["typescript", "patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=5786d5"],\
           ["vite", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:6.2.0"],\
-          ["vitest", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:3.0.7"]\
+          ["vitest", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:3.0.8"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -865,12 +865,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@vitest/expect", [\
-      ["npm:3.0.7", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@vitest-expect-npm-3.0.7-96704eb166-10c0.zip/node_modules/@vitest/expect/",\
+      ["npm:3.0.8", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@vitest-expect-npm-3.0.8-32123e91d4-10c0.zip/node_modules/@vitest/expect/",\
         "packageDependencies": [\
-          ["@vitest/expect", "npm:3.0.7"],\
-          ["@vitest/spy", "npm:3.0.7"],\
-          ["@vitest/utils", "npm:3.0.7"],\
+          ["@vitest/expect", "npm:3.0.8"],\
+          ["@vitest/spy", "npm:3.0.8"],\
+          ["@vitest/utils", "npm:3.0.8"],\
           ["chai", "npm:5.2.0"],\
           ["tinyrainbow", "npm:2.0.0"]\
         ],\
@@ -878,20 +878,20 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@vitest/mocker", [\
-      ["npm:3.0.7", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@vitest-mocker-npm-3.0.7-6f7a42aae5-10c0.zip/node_modules/@vitest/mocker/",\
+      ["npm:3.0.8", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@vitest-mocker-npm-3.0.8-ea33f17571-10c0.zip/node_modules/@vitest/mocker/",\
         "packageDependencies": [\
-          ["@vitest/mocker", "npm:3.0.7"]\
+          ["@vitest/mocker", "npm:3.0.8"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:6c0cca9be6a5be65cb38323458e13cae5d03f0486950319b314b6bb4b685a02152f6544150e81976f6c3d44d7ef44e900247b1be11d65c347e40a1207b59ea6d#npm:3.0.7", {\
-        "packageLocation": "./.yarn/__virtual__/@vitest-mocker-virtual-fb3be4878d/7/runner/cache/others/berry/cache/@vitest-mocker-npm-3.0.7-6f7a42aae5-10c0.zip/node_modules/@vitest/mocker/",\
+      ["virtual:52a7e10c785acfabb23c4460e8c6ca22a55374a30f5ebc67d557e0a71fdea67c5c3c45177401b93d28d982992194bb662301232a1eac78b5d9373be49b03666b#npm:3.0.8", {\
+        "packageLocation": "./.yarn/__virtual__/@vitest-mocker-virtual-a9b5147792/7/runner/cache/others/berry/cache/@vitest-mocker-npm-3.0.8-ea33f17571-10c0.zip/node_modules/@vitest/mocker/",\
         "packageDependencies": [\
-          ["@vitest/mocker", "virtual:6c0cca9be6a5be65cb38323458e13cae5d03f0486950319b314b6bb4b685a02152f6544150e81976f6c3d44d7ef44e900247b1be11d65c347e40a1207b59ea6d#npm:3.0.7"],\
+          ["@vitest/mocker", "virtual:52a7e10c785acfabb23c4460e8c6ca22a55374a30f5ebc67d557e0a71fdea67c5c3c45177401b93d28d982992194bb662301232a1eac78b5d9373be49b03666b#npm:3.0.8"],\
           ["@types/msw", null],\
           ["@types/vite", null],\
-          ["@vitest/spy", "npm:3.0.7"],\
+          ["@vitest/spy", "npm:3.0.8"],\
           ["estree-walker", "npm:3.0.3"],\
           ["magic-string", "npm:0.30.17"],\
           ["msw", null],\
@@ -907,32 +907,32 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@vitest/pretty-format", [\
-      ["npm:3.0.7", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@vitest-pretty-format-npm-3.0.7-ed0e5b3d75-10c0.zip/node_modules/@vitest/pretty-format/",\
+      ["npm:3.0.8", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@vitest-pretty-format-npm-3.0.8-0de8454daf-10c0.zip/node_modules/@vitest/pretty-format/",\
         "packageDependencies": [\
-          ["@vitest/pretty-format", "npm:3.0.7"],\
+          ["@vitest/pretty-format", "npm:3.0.8"],\
           ["tinyrainbow", "npm:2.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@vitest/runner", [\
-      ["npm:3.0.7", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@vitest-runner-npm-3.0.7-8571ae4473-10c0.zip/node_modules/@vitest/runner/",\
+      ["npm:3.0.8", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@vitest-runner-npm-3.0.8-4875bb436d-10c0.zip/node_modules/@vitest/runner/",\
         "packageDependencies": [\
-          ["@vitest/runner", "npm:3.0.7"],\
-          ["@vitest/utils", "npm:3.0.7"],\
+          ["@vitest/runner", "npm:3.0.8"],\
+          ["@vitest/utils", "npm:3.0.8"],\
           ["pathe", "npm:2.0.3"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@vitest/snapshot", [\
-      ["npm:3.0.7", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@vitest-snapshot-npm-3.0.7-10486de6ac-10c0.zip/node_modules/@vitest/snapshot/",\
+      ["npm:3.0.8", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@vitest-snapshot-npm-3.0.8-5d7987dd3a-10c0.zip/node_modules/@vitest/snapshot/",\
         "packageDependencies": [\
-          ["@vitest/snapshot", "npm:3.0.7"],\
-          ["@vitest/pretty-format", "npm:3.0.7"],\
+          ["@vitest/snapshot", "npm:3.0.8"],\
+          ["@vitest/pretty-format", "npm:3.0.8"],\
           ["magic-string", "npm:0.30.17"],\
           ["pathe", "npm:2.0.3"]\
         ],\
@@ -940,21 +940,21 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@vitest/spy", [\
-      ["npm:3.0.7", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@vitest-spy-npm-3.0.7-32a5b4b231-10c0.zip/node_modules/@vitest/spy/",\
+      ["npm:3.0.8", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@vitest-spy-npm-3.0.8-2afe63812e-10c0.zip/node_modules/@vitest/spy/",\
         "packageDependencies": [\
-          ["@vitest/spy", "npm:3.0.7"],\
+          ["@vitest/spy", "npm:3.0.8"],\
           ["tinyspy", "npm:3.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@vitest/utils", [\
-      ["npm:3.0.7", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@vitest-utils-npm-3.0.7-a13276ac8f-10c0.zip/node_modules/@vitest/utils/",\
+      ["npm:3.0.8", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@vitest-utils-npm-3.0.8-354f16b8cb-10c0.zip/node_modules/@vitest/utils/",\
         "packageDependencies": [\
-          ["@vitest/utils", "npm:3.0.7"],\
-          ["@vitest/pretty-format", "npm:3.0.7"],\
+          ["@vitest/utils", "npm:3.0.8"],\
+          ["@vitest/pretty-format", "npm:3.0.8"],\
           ["loupe", "npm:3.1.3"],\
           ["tinyrainbow", "npm:2.0.0"]\
         ],\
@@ -1303,10 +1303,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:29ffdc5dc02ee9f24942ecc233d13e4d40231f7a8041e3acd5e1979ff14477e4474fd8c0b0c9d290a15e98b3efed4d30f346425bc801ae5a172b5f8899fbd44f#npm:4.4.0", {\
-        "packageLocation": "./.yarn/__virtual__/debug-virtual-d826a4bd8d/7/runner/cache/others/berry/cache/debug-npm-4.4.0-f6efe76023-10c0.zip/node_modules/debug/",\
+      ["virtual:89b14c8e2c75fbeaf243ce287947b3ecc201dec7a7f985a9bc7b3799c1462608bba4804c8089e9cd8ae3426e76e8c208b0dbf1ea1915a983c99eff07a5e343df#npm:4.4.0", {\
+        "packageLocation": "./.yarn/__virtual__/debug-virtual-266a2ecbab/7/runner/cache/others/berry/cache/debug-npm-4.4.0-f6efe76023-10c0.zip/node_modules/debug/",\
         "packageDependencies": [\
-          ["debug", "virtual:29ffdc5dc02ee9f24942ecc233d13e4d40231f7a8041e3acd5e1979ff14477e4474fd8c0b0c9d290a15e98b3efed4d30f346425bc801ae5a172b5f8899fbd44f#npm:4.4.0"],\
+          ["debug", "virtual:89b14c8e2c75fbeaf243ce287947b3ecc201dec7a7f985a9bc7b3799c1462608bba4804c8089e9cd8ae3426e76e8c208b0dbf1ea1915a983c99eff07a5e343df#npm:4.4.0"],\
           ["@types/supports-color", null],\
           ["ms", "npm:2.1.3"],\
           ["supports-color", null]\
@@ -3099,10 +3099,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:29ffdc5dc02ee9f24942ecc233d13e4d40231f7a8041e3acd5e1979ff14477e4474fd8c0b0c9d290a15e98b3efed4d30f346425bc801ae5a172b5f8899fbd44f#npm:6.2.0", {\
-        "packageLocation": "./.yarn/__virtual__/vite-virtual-fb6ca03c7a/7/runner/cache/others/berry/cache/vite-npm-6.2.0-3ff3775afd-10c0.zip/node_modules/vite/",\
+      ["virtual:89b14c8e2c75fbeaf243ce287947b3ecc201dec7a7f985a9bc7b3799c1462608bba4804c8089e9cd8ae3426e76e8c208b0dbf1ea1915a983c99eff07a5e343df#npm:6.2.0", {\
+        "packageLocation": "./.yarn/__virtual__/vite-virtual-e4fc3edcb9/7/runner/cache/others/berry/cache/vite-npm-6.2.0-3ff3775afd-10c0.zip/node_modules/vite/",\
         "packageDependencies": [\
-          ["vite", "virtual:29ffdc5dc02ee9f24942ecc233d13e4d40231f7a8041e3acd5e1979ff14477e4474fd8c0b0c9d290a15e98b3efed4d30f346425bc801ae5a172b5f8899fbd44f#npm:6.2.0"],\
+          ["vite", "virtual:89b14c8e2c75fbeaf243ce287947b3ecc201dec7a7f985a9bc7b3799c1462608bba4804c8089e9cd8ae3426e76e8c208b0dbf1ea1915a983c99eff07a5e343df#npm:6.2.0"],\
           ["@types/jiti", null],\
           ["@types/less", null],\
           ["@types/lightningcss", null],\
@@ -3156,31 +3156,31 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["vite-node", [\
-      ["npm:3.0.7", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/vite-node-npm-3.0.7-29ffdc5dc0-10c0.zip/node_modules/vite-node/",\
+      ["npm:3.0.8", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/vite-node-npm-3.0.8-89b14c8e2c-10c0.zip/node_modules/vite-node/",\
         "packageDependencies": [\
-          ["vite-node", "npm:3.0.7"],\
+          ["vite-node", "npm:3.0.8"],\
           ["cac", "npm:6.7.14"],\
-          ["debug", "virtual:29ffdc5dc02ee9f24942ecc233d13e4d40231f7a8041e3acd5e1979ff14477e4474fd8c0b0c9d290a15e98b3efed4d30f346425bc801ae5a172b5f8899fbd44f#npm:4.4.0"],\
+          ["debug", "virtual:89b14c8e2c75fbeaf243ce287947b3ecc201dec7a7f985a9bc7b3799c1462608bba4804c8089e9cd8ae3426e76e8c208b0dbf1ea1915a983c99eff07a5e343df#npm:4.4.0"],\
           ["es-module-lexer", "npm:1.6.0"],\
           ["pathe", "npm:2.0.3"],\
-          ["vite", "virtual:29ffdc5dc02ee9f24942ecc233d13e4d40231f7a8041e3acd5e1979ff14477e4474fd8c0b0c9d290a15e98b3efed4d30f346425bc801ae5a172b5f8899fbd44f#npm:6.2.0"]\
+          ["vite", "virtual:89b14c8e2c75fbeaf243ce287947b3ecc201dec7a7f985a9bc7b3799c1462608bba4804c8089e9cd8ae3426e76e8c208b0dbf1ea1915a983c99eff07a5e343df#npm:6.2.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["vitest", [\
-      ["npm:3.0.7", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/vitest-npm-3.0.7-48418b39de-10c0.zip/node_modules/vitest/",\
+      ["npm:3.0.8", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/vitest-npm-3.0.8-53f80fdbd8-10c0.zip/node_modules/vitest/",\
         "packageDependencies": [\
-          ["vitest", "npm:3.0.7"]\
+          ["vitest", "npm:3.0.8"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:3.0.7", {\
-        "packageLocation": "./.yarn/__virtual__/vitest-virtual-6c0cca9be6/7/runner/cache/others/berry/cache/vitest-npm-3.0.7-48418b39de-10c0.zip/node_modules/vitest/",\
+      ["virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:3.0.8", {\
+        "packageLocation": "./.yarn/__virtual__/vitest-virtual-52a7e10c78/7/runner/cache/others/berry/cache/vitest-npm-3.0.8-53f80fdbd8-10c0.zip/node_modules/vitest/",\
         "packageDependencies": [\
-          ["vitest", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:3.0.7"],\
+          ["vitest", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:3.0.8"],\
           ["@edge-runtime/vm", null],\
           ["@types/debug", null],\
           ["@types/edge-runtime__vm", null],\
@@ -3190,16 +3190,16 @@ const RAW_RUNTIME_STATE =
           ["@types/vitest__browser", null],\
           ["@types/vitest__ui", null],\
           ["@vitest/browser", null],\
-          ["@vitest/expect", "npm:3.0.7"],\
-          ["@vitest/mocker", "virtual:6c0cca9be6a5be65cb38323458e13cae5d03f0486950319b314b6bb4b685a02152f6544150e81976f6c3d44d7ef44e900247b1be11d65c347e40a1207b59ea6d#npm:3.0.7"],\
-          ["@vitest/pretty-format", "npm:3.0.7"],\
-          ["@vitest/runner", "npm:3.0.7"],\
-          ["@vitest/snapshot", "npm:3.0.7"],\
-          ["@vitest/spy", "npm:3.0.7"],\
+          ["@vitest/expect", "npm:3.0.8"],\
+          ["@vitest/mocker", "virtual:52a7e10c785acfabb23c4460e8c6ca22a55374a30f5ebc67d557e0a71fdea67c5c3c45177401b93d28d982992194bb662301232a1eac78b5d9373be49b03666b#npm:3.0.8"],\
+          ["@vitest/pretty-format", "npm:3.0.8"],\
+          ["@vitest/runner", "npm:3.0.8"],\
+          ["@vitest/snapshot", "npm:3.0.8"],\
+          ["@vitest/spy", "npm:3.0.8"],\
           ["@vitest/ui", null],\
-          ["@vitest/utils", "npm:3.0.7"],\
+          ["@vitest/utils", "npm:3.0.8"],\
           ["chai", "npm:5.2.0"],\
-          ["debug", "virtual:29ffdc5dc02ee9f24942ecc233d13e4d40231f7a8041e3acd5e1979ff14477e4474fd8c0b0c9d290a15e98b3efed4d30f346425bc801ae5a172b5f8899fbd44f#npm:4.4.0"],\
+          ["debug", "virtual:89b14c8e2c75fbeaf243ce287947b3ecc201dec7a7f985a9bc7b3799c1462608bba4804c8089e9cd8ae3426e76e8c208b0dbf1ea1915a983c99eff07a5e343df#npm:4.4.0"],\
           ["expect-type", "npm:1.1.0"],\
           ["happy-dom", null],\
           ["jsdom", null],\
@@ -3211,7 +3211,7 @@ const RAW_RUNTIME_STATE =
           ["tinypool", "npm:1.0.2"],\
           ["tinyrainbow", "npm:2.0.0"],\
           ["vite", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:6.2.0"],\
-          ["vite-node", "npm:3.0.7"],\
+          ["vite-node", "npm:3.0.8"],\
           ["why-is-node-running", "npm:2.3.0"]\
         ],\
         "packagePeers": [\
@@ -3692,7 +3692,7 @@ async function copyImpl(prelayout, postlayout, destinationFs, destination, sourc
 async function maybeLStat(baseFs, p) {
   try {
     return await baseFs.lstatPromise(p);
-  } catch (e) {
+  } catch {
     return null;
   }
 }
@@ -3951,7 +3951,7 @@ class CustomStatWatcher extends events.EventEmitter {
   stat() {
     try {
       return this.fakeFs.statSync(this.path, { bigint: this.bigint });
-    } catch (error) {
+    } catch {
       const statInstance = this.bigint ? new BigIntStatsEntry() : new StatEntry();
       return clearStats(statInstance);
     }
@@ -4277,7 +4277,7 @@ class FakeFS {
     let current = Buffer.alloc(0);
     try {
       current = await this.readFilePromise(p);
-    } catch (error) {
+    } catch {
     }
     if (Buffer.compare(current, content) === 0)
       return;
@@ -4287,7 +4287,7 @@ class FakeFS {
     let current = ``;
     try {
       current = await this.readFilePromise(p, `utf8`);
-    } catch (error) {
+    } catch {
     }
     const normalizedContent = automaticNewlines ? normalizeLineEndings(current, content) : content;
     if (current === normalizedContent)
@@ -4305,7 +4305,7 @@ class FakeFS {
     let current = Buffer.alloc(0);
     try {
       current = this.readFileSync(p);
-    } catch (error) {
+    } catch {
     }
     if (Buffer.compare(current, content) === 0)
       return;
@@ -4315,7 +4315,7 @@ class FakeFS {
     let current = ``;
     try {
       current = this.readFileSync(p, `utf8`);
-    } catch (error) {
+    } catch {
     }
     const normalizedContent = automaticNewlines ? normalizeLineEndings(current, content) : content;
     if (current === normalizedContent)
@@ -4355,13 +4355,13 @@ class FakeFS {
       let pid;
       try {
         [pid] = await this.readJsonPromise(lockPath);
-      } catch (error) {
+      } catch {
         return Date.now() - startTime < 500;
       }
       try {
         process.kill(pid, 0);
         return true;
-      } catch (error) {
+      } catch {
         return false;
       }
     };
@@ -4374,7 +4374,7 @@ class FakeFS {
             try {
               await this.unlinkPromise(lockPath);
               continue;
-            } catch (error2) {
+            } catch {
             }
           }
           if (Date.now() - startTime < 60 * 1e3) {
@@ -4394,7 +4394,7 @@ class FakeFS {
       try {
         await this.closePromise(fd);
         await this.unlinkPromise(lockPath);
-      } catch (error) {
+      } catch {
       }
     }
   }
@@ -5544,7 +5544,7 @@ class MountFS extends BasePortableFakeFS {
       let content;
       try {
         content = await sourceFs.readFilePromise(sourceP2);
-      } catch (error) {
+      } catch {
         throw Object.assign(new Error(`EINVAL: invalid argument, copyfile '${sourceP2}' -> '${destP2}'`), { code: `EINVAL` });
       }
       await destFs.writeFilePromise(destP2, content);
@@ -5576,7 +5576,7 @@ class MountFS extends BasePortableFakeFS {
       let content;
       try {
         content = sourceFs.readFileSync(sourceP2);
-      } catch (error) {
+      } catch {
         throw Object.assign(new Error(`EINVAL: invalid argument, copyfile '${sourceP2}' -> '${destP2}'`), { code: `EINVAL` });
       }
       destFs.writeFileSync(destP2, content);
@@ -6491,7 +6491,7 @@ function patchFs(patchedFs, fakeFs) {
     setupFn(patchedFs, `existsSync`, (p) => {
       try {
         return fakeFs.existsSync(p);
-      } catch (error) {
+      } catch {
         return false;
       }
     });
@@ -7852,7 +7852,7 @@ class ZipFS extends BasePortableFakeFS {
     let resolvedP;
     try {
       resolvedP = this.resolveFilename(`stat '${p}'`, p, void 0, false);
-    } catch (error) {
+    } catch {
       return false;
     }
     if (resolvedP === void 0)
@@ -8893,7 +8893,7 @@ Require stack:
         } else {
           resolution = originalFindPath.call(require$$0.Module, request, [path], isMain);
         }
-      } catch (error) {
+      } catch {
         continue;
       }
       if (resolution) {
@@ -9976,7 +9976,7 @@ function makeApi(runtimeState, opts) {
     try {
       candidates.push(unqualifiedPath);
       stat = opts.fakeFs.statSync(unqualifiedPath);
-    } catch (error) {
+    } catch {
     }
     if (stat && !stat.isDirectory())
       return opts.fakeFs.realpathSync(unqualifiedPath);
@@ -9984,7 +9984,7 @@ function makeApi(runtimeState, opts) {
       let pkgJson;
       try {
         pkgJson = JSON.parse(opts.fakeFs.readFileSync(ppath.join(unqualifiedPath, Filename.manifest), `utf8`));
-      } catch (error) {
+      } catch {
       }
       let nextUnqualifiedPath;
       if (pkgJson && pkgJson.main)
