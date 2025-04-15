@@ -30,7 +30,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@changesets/cli", "npm:2.28.1"],\
           ["@kroxilon/usda-parser", "workspace:."],\
-          ["@types/node", "npm:22.14.0"],\
+          ["@types/node", "npm:22.14.1"],\
           ["cross-env", "npm:7.0.3"],\
           ["peggy", "npm:4.2.0"],\
           ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.2.1"],\
@@ -551,7 +551,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@changesets/cli", "npm:2.28.1"],\
           ["@kroxilon/usda-parser", "workspace:."],\
-          ["@types/node", "npm:22.14.0"],\
+          ["@types/node", "npm:22.14.1"],\
           ["cross-env", "npm:7.0.3"],\
           ["peggy", "npm:4.2.0"],\
           ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.2.1"],\
@@ -857,10 +857,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:22.14.0", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@types-node-npm-22.14.0-a09e354ed5-10c0.zip/node_modules/@types/node/",\
+      ["npm:22.14.1", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@types-node-npm-22.14.1-ff7e0a29d7-10c0.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:22.14.0"],\
+          ["@types/node", "npm:22.14.1"],\
           ["undici-types", "npm:6.21.0"]\
         ],\
         "linkType": "HARD"\
@@ -3052,7 +3052,7 @@ const RAW_RUNTIME_STATE =
           ["@types/jiti", null],\
           ["@types/less", null],\
           ["@types/lightningcss", null],\
-          ["@types/node", "npm:22.14.0"],\
+          ["@types/node", "npm:22.14.1"],\
           ["@types/sass", null],\
           ["@types/sass-embedded", null],\
           ["@types/stylus", null],\
@@ -3187,7 +3187,7 @@ const RAW_RUNTIME_STATE =
           ["@types/edge-runtime__vm", null],\
           ["@types/happy-dom", null],\
           ["@types/jsdom", null],\
-          ["@types/node", "npm:22.14.0"],\
+          ["@types/node", "npm:22.14.1"],\
           ["@types/vitest__browser", null],\
           ["@types/vitest__ui", null],\
           ["@vitest/browser", null],\
