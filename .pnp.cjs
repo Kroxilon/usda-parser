@@ -28,7 +28,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@changesets/cli", "npm:2.28.1"],\
+          ["@changesets/cli", "npm:2.29.2"],\
           ["@kroxilon/usda-parser", "workspace:."],\
           ["@types/node", "npm:22.14.1"],\
           ["cross-env", "npm:7.0.3"],\
@@ -52,13 +52,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@changesets/apply-release-plan", [\
-      ["npm:7.0.10", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@changesets-apply-release-plan-npm-7.0.10-e2570993de-10c0.zip/node_modules/@changesets/apply-release-plan/",\
+      ["npm:7.0.12", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@changesets-apply-release-plan-npm-7.0.12-cbd74ccda2-10c0.zip/node_modules/@changesets/apply-release-plan/",\
         "packageDependencies": [\
-          ["@changesets/apply-release-plan", "npm:7.0.10"],\
+          ["@changesets/apply-release-plan", "npm:7.0.12"],\
           ["@changesets/config", "npm:3.1.1"],\
           ["@changesets/get-version-range-type", "npm:0.4.0"],\
-          ["@changesets/git", "npm:3.0.2"],\
+          ["@changesets/git", "npm:3.0.4"],\
           ["@changesets/should-skip-package", "npm:0.1.2"],\
           ["@changesets/types", "npm:6.1.0"],\
           ["@manypkg/get-packages", "npm:1.1.3"],\
@@ -99,21 +99,21 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@changesets/cli", [\
-      ["npm:2.28.1", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@changesets-cli-npm-2.28.1-cea38e0e18-10c0.zip/node_modules/@changesets/cli/",\
+      ["npm:2.29.2", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@changesets-cli-npm-2.29.2-99145664fc-10c0.zip/node_modules/@changesets/cli/",\
         "packageDependencies": [\
-          ["@changesets/apply-release-plan", "npm:7.0.10"],\
+          ["@changesets/apply-release-plan", "npm:7.0.12"],\
           ["@changesets/assemble-release-plan", "npm:6.0.6"],\
           ["@changesets/changelog-git", "npm:0.2.1"],\
-          ["@changesets/cli", "npm:2.28.1"],\
+          ["@changesets/cli", "npm:2.29.2"],\
           ["@changesets/config", "npm:3.1.1"],\
           ["@changesets/errors", "npm:0.2.0"],\
           ["@changesets/get-dependents-graph", "npm:2.1.3"],\
-          ["@changesets/get-release-plan", "npm:4.0.8"],\
-          ["@changesets/git", "npm:3.0.2"],\
+          ["@changesets/get-release-plan", "npm:4.0.10"],\
+          ["@changesets/git", "npm:3.0.4"],\
           ["@changesets/logger", "npm:0.1.1"],\
           ["@changesets/pre", "npm:2.0.2"],\
-          ["@changesets/read", "npm:0.6.3"],\
+          ["@changesets/read", "npm:0.6.5"],\
           ["@changesets/should-skip-package", "npm:0.1.2"],\
           ["@changesets/types", "npm:6.1.0"],\
           ["@changesets/write", "npm:0.4.0"],\
@@ -175,14 +175,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@changesets/get-release-plan", [\
-      ["npm:4.0.8", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@changesets-get-release-plan-npm-4.0.8-cd2af5bcca-10c0.zip/node_modules/@changesets/get-release-plan/",\
+      ["npm:4.0.10", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@changesets-get-release-plan-npm-4.0.10-0f0f615449-10c0.zip/node_modules/@changesets/get-release-plan/",\
         "packageDependencies": [\
           ["@changesets/assemble-release-plan", "npm:6.0.6"],\
           ["@changesets/config", "npm:3.1.1"],\
-          ["@changesets/get-release-plan", "npm:4.0.8"],\
+          ["@changesets/get-release-plan", "npm:4.0.10"],\
           ["@changesets/pre", "npm:2.0.2"],\
-          ["@changesets/read", "npm:0.6.3"],\
+          ["@changesets/read", "npm:0.6.5"],\
           ["@changesets/types", "npm:6.1.0"],\
           ["@manypkg/get-packages", "npm:1.1.3"]\
         ],\
@@ -199,11 +199,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@changesets/git", [\
-      ["npm:3.0.2", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@changesets-git-npm-3.0.2-07684e89c1-10c0.zip/node_modules/@changesets/git/",\
+      ["npm:3.0.4", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@changesets-git-npm-3.0.4-c1d351b2f6-10c0.zip/node_modules/@changesets/git/",\
         "packageDependencies": [\
           ["@changesets/errors", "npm:0.2.0"],\
-          ["@changesets/git", "npm:3.0.2"],\
+          ["@changesets/git", "npm:3.0.4"],\
           ["@manypkg/get-packages", "npm:1.1.3"],\
           ["is-subdir", "npm:1.2.0"],\
           ["micromatch", "npm:4.0.8"],\
@@ -247,13 +247,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@changesets/read", [\
-      ["npm:0.6.3", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@changesets-read-npm-0.6.3-856af22f4c-10c0.zip/node_modules/@changesets/read/",\
+      ["npm:0.6.5", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@changesets-read-npm-0.6.5-fc55502eb7-10c0.zip/node_modules/@changesets/read/",\
         "packageDependencies": [\
-          ["@changesets/git", "npm:3.0.2"],\
+          ["@changesets/git", "npm:3.0.4"],\
           ["@changesets/logger", "npm:0.1.1"],\
           ["@changesets/parse", "npm:0.4.1"],\
-          ["@changesets/read", "npm:0.6.3"],\
+          ["@changesets/read", "npm:0.6.5"],\
           ["@changesets/types", "npm:6.1.0"],\
           ["fs-extra", "npm:7.0.1"],\
           ["p-filter", "npm:2.1.0"],\
@@ -549,7 +549,7 @@ const RAW_RUNTIME_STATE =
       ["workspace:.", {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@changesets/cli", "npm:2.28.1"],\
+          ["@changesets/cli", "npm:2.29.2"],\
           ["@kroxilon/usda-parser", "workspace:."],\
           ["@types/node", "npm:22.14.1"],\
           ["cross-env", "npm:7.0.3"],\
@@ -7468,14 +7468,9 @@ class LibZipImpl {
   libzip;
   lzSource;
   zip;
-  /**
-   * A cache of indices mapped to file sources.
-   * Populated by `setFileSource` calls.
-   * Required for supporting read after write.
-   */
-  fileSources = /* @__PURE__ */ new Map();
   listings;
   symlinkCount;
+  filesShouldBeCached = true;
   constructor(opts) {
     const buffer = `buffer` in opts ? opts.buffer : opts.baseFs.readFileSync(opts.path);
     this.libzip = getInstance();
@@ -7546,7 +7541,6 @@ class LibZipImpl {
           throw this.makeLibzipError(this.libzip.getError(this.zip));
         }
       }
-      this.fileSources.set(newIndex, buffer);
       return newIndex;
     } catch (error) {
       this.libzip.source.free(lzSource);
@@ -7577,9 +7571,6 @@ class LibZipImpl {
     return this.libzip.name.locate(this.zip, name, 0);
   }
   getFileSource(index) {
-    const cachedFileSource = this.fileSources.get(index);
-    if (typeof cachedFileSource !== `undefined`)
-      return { data: cachedFileSource, compressionMethod: 0 };
     const stat = this.libzip.struct.statS();
     const rc = this.libzip.statIndex(this.zip, index, 0, 0, stat);
     if (rc === -1)
@@ -7610,7 +7601,6 @@ class LibZipImpl {
     }
   }
   deleteEntry(index) {
-    this.fileSources.delete(index);
     const rc = this.libzip.delete(this.zip, index);
     if (rc === -1) {
       throw this.makeLibzipError(this.libzip.getError(this.zip));
@@ -7745,6 +7735,12 @@ class ZipFS extends BasePortableFakeFS {
   zipImpl;
   listings = /* @__PURE__ */ new Map();
   entries = /* @__PURE__ */ new Map();
+  /**
+   * A cache of indices mapped to file sources.
+   * Populated by `setFileSource` calls.
+   * Required for supporting read after write.
+   */
+  fileSources = /* @__PURE__ */ new Map();
   symlinkCount;
   fds = /* @__PURE__ */ new Map();
   nextFd = 0;
@@ -8170,6 +8166,7 @@ class ZipFS extends BasePortableFakeFS {
     this.entries.delete(p);
     if (typeof entry === `undefined`)
       return;
+    this.fileSources.delete(entry);
     if (this.isSymbolicLink(entry)) {
       this.symlinkCount--;
     }
@@ -8230,6 +8227,7 @@ class ZipFS extends BasePortableFakeFS {
       compression = [method, this.level];
     }
     const newIndex = this.zipImpl.setFileSource(target, compression, buffer);
+    this.fileSources.set(newIndex, buffer);
     return newIndex;
   }
   isSymbolicLink(index) {
@@ -8242,8 +8240,13 @@ class ZipFS extends BasePortableFakeFS {
     return (attributes & fs.constants.S_IFMT) === fs.constants.S_IFLNK;
   }
   getFileSource(index, opts = { asyncDecompress: false }) {
+    const cachedFileSource = this.fileSources.get(index);
+    if (typeof cachedFileSource !== `undefined`)
+      return cachedFileSource;
     const { data, compressionMethod } = this.zipImpl.getFileSource(index);
     if (compressionMethod === STORE) {
+      if (this.zipImpl.filesShouldBeCached)
+        this.fileSources.set(index, data);
       return data;
     } else if (compressionMethod === DEFLATE) {
       if (opts.asyncDecompress) {
@@ -8252,12 +8255,17 @@ class ZipFS extends BasePortableFakeFS {
             if (error) {
               reject(error);
             } else {
+              if (this.zipImpl.filesShouldBeCached)
+                this.fileSources.set(index, result);
               resolve(result);
             }
           });
         });
       } else {
-        return zlib__default.default.inflateRawSync(data);
+        const decompressedData = zlib__default.default.inflateRawSync(data);
+        if (this.zipImpl.filesShouldBeCached)
+          this.fileSources.set(index, decompressedData);
+        return decompressedData;
       }
     } else {
       throw new Error(`Unsupported compression method: ${compressionMethod}`);
@@ -8722,6 +8730,7 @@ class JsZipImpl {
   fd;
   baseFs;
   entries;
+  filesShouldBeCached = false;
   constructor(opts) {
     if (`buffer` in opts)
       throw new Error(`Buffer based zip archives are not supported`);
@@ -8729,7 +8738,13 @@ class JsZipImpl {
       throw new Error(`Writable zip archives are not supported`);
     this.baseFs = opts.baseFs;
     this.fd = this.baseFs.openSync(opts.path, `r`);
-    this.entries = JsZipImpl.readZipSync(this.fd, this.baseFs, opts.size);
+    try {
+      this.entries = JsZipImpl.readZipSync(this.fd, this.baseFs, opts.size);
+    } catch (error) {
+      this.baseFs.closeSync(this.fd);
+      this.fd = `closed`;
+      throw error;
+    }
   }
   static readZipSync(fd, baseFs, fileSize) {
     if (fileSize < noCommentCDSize)
@@ -8857,6 +8872,8 @@ class JsZipImpl {
     return -1;
   }
   getFileSource(index) {
+    if (this.fd === `closed`)
+      throw new Error(`ZIP file is closed`);
     const entry = this.entries[index];
     const localHeaderBuf = Buffer.alloc(30);
     this.baseFs.readSync(
@@ -8874,6 +8891,10 @@ class JsZipImpl {
     return { data: buffer, compressionMethod: entry.compressionMethod };
   }
   discard() {
+    if (this.fd !== `closed`) {
+      this.baseFs.closeSync(this.fd);
+      this.fd = `closed`;
+    }
   }
   addDirectory(path) {
     throw new Error(`Not implemented`);
