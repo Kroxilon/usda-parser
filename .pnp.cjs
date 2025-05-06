@@ -32,7 +32,7 @@ const RAW_RUNTIME_STATE =
           ["@kroxilon/usda-parser", "workspace:."],\
           ["@types/node", "npm:22.15.3"],\
           ["cross-env", "npm:7.0.3"],\
-          ["peggy", "npm:4.2.0"],\
+          ["peggy", "npm:5.0.0"],\
           ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.2.1"],\
           ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"],\
           ["vite", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:6.3.4"],\
@@ -553,7 +553,7 @@ const RAW_RUNTIME_STATE =
           ["@kroxilon/usda-parser", "workspace:."],\
           ["@types/node", "npm:22.15.3"],\
           ["cross-env", "npm:7.0.3"],\
-          ["peggy", "npm:4.2.0"],\
+          ["peggy", "npm:5.0.0"],\
           ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.2.1"],\
           ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"],\
           ["vite", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:6.3.4"],\
@@ -644,11 +644,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@peggyjs/from-mem", [\
-      ["npm:1.3.5", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@peggyjs-from-mem-npm-1.3.5-581211b29d-10c0.zip/node_modules/@peggyjs/from-mem/",\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@peggyjs-from-mem-npm-2.0.0-9baced61a5-10c0.zip/node_modules/@peggyjs/from-mem/",\
         "packageDependencies": [\
-          ["@peggyjs/from-mem", "npm:1.3.5"],\
-          ["semver", "npm:7.6.3"]\
+          ["@peggyjs/from-mem", "npm:2.0.0"],\
+          ["semver", "npm:7.7.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1241,10 +1241,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["commander", [\
-      ["npm:12.1.0", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/commander-npm-12.1.0-65c868e907-10c0.zip/node_modules/commander/",\
+      ["npm:13.1.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/commander-npm-13.1.0-bdbbfaaf9d-10c0.zip/node_modules/commander/",\
         "packageDependencies": [\
-          ["commander", "npm:12.1.0"]\
+          ["commander", "npm:13.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2439,13 +2439,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["peggy", [\
-      ["npm:4.2.0", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/peggy-npm-4.2.0-12089482f9-10c0.zip/node_modules/peggy/",\
+      ["npm:5.0.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/peggy-npm-5.0.0-be33372d71-10c0.zip/node_modules/peggy/",\
         "packageDependencies": [\
-          ["@peggyjs/from-mem", "npm:1.3.5"],\
-          ["commander", "npm:12.1.0"],\
-          ["peggy", "npm:4.2.0"],\
-          ["source-map-generator", "npm:0.8.0"]\
+          ["@peggyjs/from-mem", "npm:2.0.0"],\
+          ["commander", "npm:13.1.0"],\
+          ["peggy", "npm:5.0.0"],\
+          ["source-map-generator", "npm:2.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2701,10 +2701,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:7.6.3", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/semver-npm-7.6.3-57e82c14d5-10c0.zip/node_modules/semver/",\
+      ["npm:7.7.1", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/semver-npm-7.7.1-4572475307-10c0.zip/node_modules/semver/",\
         "packageDependencies": [\
-          ["semver", "npm:7.6.3"]\
+          ["semver", "npm:7.7.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2804,10 +2804,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["source-map-generator", [\
-      ["npm:0.8.0", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/source-map-generator-npm-0.8.0-494520805d-10c0.zip/node_modules/source-map-generator/",\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/source-map-generator-npm-2.0.0-c58a6d3433-10c0.zip/node_modules/source-map-generator/",\
         "packageDependencies": [\
-          ["source-map-generator", "npm:0.8.0"]\
+          ["source-map-generator", "npm:2.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3022,7 +3022,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/ts-pegjs-virtual-427e57a4c3/7/runner/cache/others/berry/cache/ts-pegjs-npm-2.2.1-f2a7af7492-10c0.zip/node_modules/ts-pegjs/",\
         "packageDependencies": [\
           ["@types/peggy", null],\
-          ["peggy", "npm:4.2.0"],\
+          ["peggy", "npm:5.0.0"],\
           ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.2.1"]\
         ],\
         "packagePeers": [\
