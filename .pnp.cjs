@@ -31,7 +31,7 @@ const RAW_RUNTIME_STATE =
           ["@changesets/cli", "npm:2.29.5"],\
           ["@kroxilon/usda-parser", "workspace:."],\
           ["@types/node", "npm:22.16.5"],\
-          ["cross-env", "npm:7.0.3"],\
+          ["cross-env", "npm:10.0.0"],\
           ["peggy", "npm:5.0.5"],\
           ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.2.1"],\
           ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"],\
@@ -302,6 +302,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@epic-web/invariant", [\
+      ["npm:1.0.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@epic-web-invariant-npm-1.0.0-a4ac7c9c5e-10c0.zip/node_modules/@epic-web/invariant/",\
+        "packageDependencies": [\
+          ["@epic-web/invariant", "npm:1.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@esbuild/aix-ppc64", [\
       ["npm:0.25.0", {\
         "packageLocation": "./.yarn/unplugged/@esbuild-aix-ppc64-npm-0.25.0-e3aca9fae0/node_modules/@esbuild/aix-ppc64/",\
@@ -552,7 +561,7 @@ const RAW_RUNTIME_STATE =
           ["@changesets/cli", "npm:2.29.5"],\
           ["@kroxilon/usda-parser", "workspace:."],\
           ["@types/node", "npm:22.16.5"],\
-          ["cross-env", "npm:7.0.3"],\
+          ["cross-env", "npm:10.0.0"],\
           ["peggy", "npm:5.0.5"],\
           ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.2.1"],\
           ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"],\
@@ -1415,26 +1424,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["cross-env", [\
-      ["npm:7.0.3", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/cross-env-npm-7.0.3-96d81820f4-10c0.zip/node_modules/cross-env/",\
+      ["npm:10.0.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/cross-env-npm-10.0.0-e9b756cae3-10c0.zip/node_modules/cross-env/",\
         "packageDependencies": [\
-          ["cross-env", "npm:7.0.3"],\
-          ["cross-spawn", "npm:7.0.3"]\
+          ["@epic-web/invariant", "npm:1.0.0"],\
+          ["cross-env", "npm:10.0.0"],\
+          ["cross-spawn", "npm:7.0.6"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["cross-spawn", [\
-      ["npm:7.0.3", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/cross-spawn-npm-7.0.3-e4ff3e65b3-10c0.zip/node_modules/cross-spawn/",\
-        "packageDependencies": [\
-          ["cross-spawn", "npm:7.0.3"],\
-          ["path-key", "npm:3.1.1"],\
-          ["shebang-command", "npm:2.0.0"],\
-          ["which", "npm:2.0.2"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:7.0.6", {\
         "packageLocation": "../../../../../../runner/cache/others/berry/cache/cross-spawn-npm-7.0.6-264bddf921-10c0.zip/node_modules/cross-spawn/",\
         "packageDependencies": [\
