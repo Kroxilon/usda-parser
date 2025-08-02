@@ -30,7 +30,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@changesets/cli", "npm:2.29.5"],\
           ["@kroxilon/usda-parser", "workspace:."],\
-          ["@types/node", "npm:22.16.5"],\
+          ["@types/node", "npm:22.17.0"],\
           ["cross-env", "npm:10.0.0"],\
           ["peggy", "npm:5.0.5"],\
           ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.2.1"],\
@@ -560,7 +560,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@changesets/cli", "npm:2.29.5"],\
           ["@kroxilon/usda-parser", "workspace:."],\
-          ["@types/node", "npm:22.16.5"],\
+          ["@types/node", "npm:22.17.0"],\
           ["cross-env", "npm:10.0.0"],\
           ["peggy", "npm:5.0.5"],\
           ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.2.1"],\
@@ -1022,10 +1022,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:22.16.5", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@types-node-npm-22.16.5-2161c89a42-10c0.zip/node_modules/@types/node/",\
+      ["npm:22.17.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@types-node-npm-22.17.0-d1a2089b53-10c0.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:22.16.5"],\
+          ["@types/node", "npm:22.17.0"],\
           ["undici-types", "npm:6.21.0"]\
         ],\
         "linkType": "HARD"\
@@ -3338,7 +3338,7 @@ const RAW_RUNTIME_STATE =
           ["@types/jiti", null],\
           ["@types/less", null],\
           ["@types/lightningcss", null],\
-          ["@types/node", "npm:22.16.5"],\
+          ["@types/node", "npm:22.17.0"],\
           ["@types/sass", null],\
           ["@types/sass-embedded", null],\
           ["@types/stylus", null],\
@@ -3396,7 +3396,7 @@ const RAW_RUNTIME_STATE =
           ["@types/jiti", null],\
           ["@types/less", null],\
           ["@types/lightningcss", null],\
-          ["@types/node", "npm:22.16.5"],\
+          ["@types/node", "npm:22.17.0"],\
           ["@types/sass", null],\
           ["@types/sass-embedded", null],\
           ["@types/stylus", null],\
@@ -3537,7 +3537,7 @@ const RAW_RUNTIME_STATE =
           ["@types/edge-runtime__vm", null],\
           ["@types/happy-dom", null],\
           ["@types/jsdom", null],\
-          ["@types/node", "npm:22.16.5"],\
+          ["@types/node", "npm:22.17.0"],\
           ["@types/vitest__browser", null],\
           ["@types/vitest__ui", null],\
           ["@vitest/browser", null],\
