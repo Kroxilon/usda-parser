@@ -28,7 +28,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@changesets/cli", "npm:2.29.5"],\
+          ["@changesets/cli", "npm:2.29.6"],\
           ["@kroxilon/usda-parser", "workspace:."],\
           ["@types/node", "npm:22.17.2"],\
           ["cross-env", "npm:10.0.0"],\
@@ -99,13 +99,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@changesets/cli", [\
-      ["npm:2.29.5", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@changesets-cli-npm-2.29.5-68d8030bf3-10c0.zip/node_modules/@changesets/cli/",\
+      ["npm:2.29.6", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@changesets-cli-npm-2.29.6-ac8361deb8-10c0.zip/node_modules/@changesets/cli/",\
         "packageDependencies": [\
           ["@changesets/apply-release-plan", "npm:7.0.12"],\
           ["@changesets/assemble-release-plan", "npm:6.0.9"],\
           ["@changesets/changelog-git", "npm:0.2.1"],\
-          ["@changesets/cli", "npm:2.29.5"],\
+          ["@changesets/cli", "npm:2.29.6"],\
           ["@changesets/config", "npm:3.1.1"],\
           ["@changesets/errors", "npm:0.2.0"],\
           ["@changesets/get-dependents-graph", "npm:2.1.3"],\
@@ -117,11 +117,11 @@ const RAW_RUNTIME_STATE =
           ["@changesets/should-skip-package", "npm:0.1.2"],\
           ["@changesets/types", "npm:6.1.0"],\
           ["@changesets/write", "npm:0.4.0"],\
+          ["@inquirer/external-editor", "virtual:ac8361deb8aefcf1604ea948ae3ddc23789aa29d0545965e5b44dc1bf2deff44603edbd38f63319b1ed939653ad7790bbeb14a3c14024cdb7e7c9842ecb11640#npm:1.0.1"],\
           ["@manypkg/get-packages", "npm:1.1.3"],\
           ["ansi-colors", "npm:4.1.3"],\
           ["ci-info", "npm:3.9.0"],\
           ["enquirer", "npm:2.4.1"],\
-          ["external-editor", "npm:3.1.0"],\
           ["fs-extra", "npm:7.0.1"],\
           ["mri", "npm:1.2.0"],\
           ["p-limit", "npm:2.3.0"],\
@@ -545,6 +545,28 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@inquirer/external-editor", [\
+      ["npm:1.0.1", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@inquirer-external-editor-npm-1.0.1-80f0f6c183-10c0.zip/node_modules/@inquirer/external-editor/",\
+        "packageDependencies": [\
+          ["@inquirer/external-editor", "npm:1.0.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:ac8361deb8aefcf1604ea948ae3ddc23789aa29d0545965e5b44dc1bf2deff44603edbd38f63319b1ed939653ad7790bbeb14a3c14024cdb7e7c9842ecb11640#npm:1.0.1", {\
+        "packageLocation": "./.yarn/__virtual__/@inquirer-external-editor-virtual-5d35a0e9d1/7/runner/cache/others/berry/cache/@inquirer-external-editor-npm-1.0.1-80f0f6c183-10c0.zip/node_modules/@inquirer/external-editor/",\
+        "packageDependencies": [\
+          ["@inquirer/external-editor", "virtual:ac8361deb8aefcf1604ea948ae3ddc23789aa29d0545965e5b44dc1bf2deff44603edbd38f63319b1ed939653ad7790bbeb14a3c14024cdb7e7c9842ecb11640#npm:1.0.1"],\
+          ["@types/node", null],\
+          ["chardet", "npm:2.1.0"],\
+          ["iconv-lite", "npm:0.6.3"]\
+        ],\
+        "packagePeers": [\
+          "@types/node"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@jridgewell/sourcemap-codec", [\
       ["npm:1.5.0", {\
         "packageLocation": "../../../../../../runner/cache/others/berry/cache/@jridgewell-sourcemap-codec-npm-1.5.0-dfd9126d71-10c0.zip/node_modules/@jridgewell/sourcemap-codec/",\
@@ -558,7 +580,7 @@ const RAW_RUNTIME_STATE =
       ["workspace:.", {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@changesets/cli", "npm:2.29.5"],\
+          ["@changesets/cli", "npm:2.29.6"],\
           ["@kroxilon/usda-parser", "workspace:."],\
           ["@types/node", "npm:22.17.2"],\
           ["cross-env", "npm:10.0.0"],\
@@ -1345,10 +1367,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["chardet", [\
-      ["npm:0.7.0", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/chardet-npm-0.7.0-27933dd6c7-10c0.zip/node_modules/chardet/",\
+      ["npm:2.1.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/chardet-npm-2.1.0-d7766f0f06-10c0.zip/node_modules/chardet/",\
         "packageDependencies": [\
-          ["chardet", "npm:0.7.0"]\
+          ["chardet", "npm:2.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1666,18 +1688,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["external-editor", [\
-      ["npm:3.1.0", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/external-editor-npm-3.1.0-878e7807af-10c0.zip/node_modules/external-editor/",\
-        "packageDependencies": [\
-          ["chardet", "npm:0.7.0"],\
-          ["external-editor", "npm:3.1.0"],\
-          ["iconv-lite", "npm:0.4.24"],\
-          ["tmp", "npm:0.0.33"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["fast-glob", [\
       ["npm:3.2.12", {\
         "packageLocation": "../../../../../../runner/cache/others/berry/cache/fast-glob-npm-3.2.12-162763bbae-10c0.zip/node_modules/fast-glob/",\
@@ -1980,14 +1990,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["iconv-lite", [\
-      ["npm:0.4.24", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/iconv-lite-npm-0.4.24-c5c4ac6695-10c0.zip/node_modules/iconv-lite/",\
-        "packageDependencies": [\
-          ["iconv-lite", "npm:0.4.24"],\
-          ["safer-buffer", "npm:2.1.2"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:0.6.3", {\
         "packageLocation": "../../../../../../runner/cache/others/berry/cache/iconv-lite-npm-0.6.3-24b8aae27e-10c0.zip/node_modules/iconv-lite/",\
         "packageDependencies": [\
@@ -2473,15 +2475,6 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["once", "npm:1.4.0"],\
           ["wrappy", "npm:1.0.2"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["os-tmpdir", [\
-      ["npm:1.0.2", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/os-tmpdir-npm-1.0.2-e305b0689b-10c0.zip/node_modules/os-tmpdir/",\
-        "packageDependencies": [\
-          ["os-tmpdir", "npm:1.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3217,16 +3210,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../runner/cache/others/berry/cache/tinyspy-npm-3.0.2-4f17593a18-10c0.zip/node_modules/tinyspy/",\
         "packageDependencies": [\
           ["tinyspy", "npm:3.0.2"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["tmp", [\
-      ["npm:0.0.33", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/tmp-npm-0.0.33-bcbf65df2a-10c0.zip/node_modules/tmp/",\
-        "packageDependencies": [\
-          ["os-tmpdir", "npm:1.0.2"],\
-          ["tmp", "npm:0.0.33"]\
         ],\
         "linkType": "HARD"\
       }]\
