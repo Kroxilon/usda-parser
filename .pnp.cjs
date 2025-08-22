@@ -35,7 +35,7 @@ const RAW_RUNTIME_STATE =
           ["peggy", "npm:5.0.6"],\
           ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.2.1"],\
           ["typescript", "patch:typescript@npm%3A5.9.2#optional!builtin<compat/typescript>::version=5.9.2&hash=5786d5"],\
-          ["vite", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:7.1.2"],\
+          ["vite", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:7.1.3"],\
           ["vitest", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:3.1.4"]\
         ],\
         "linkType": "SOFT"\
@@ -587,7 +587,7 @@ const RAW_RUNTIME_STATE =
           ["peggy", "npm:5.0.6"],\
           ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.2.1"],\
           ["typescript", "patch:typescript@npm%3A5.9.2#optional!builtin<compat/typescript>::version=5.9.2&hash=5786d5"],\
-          ["vite", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:7.1.2"],\
+          ["vite", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:7.1.3"],\
           ["vitest", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:3.1.4"]\
         ],\
         "linkType": "SOFT"\
@@ -1720,18 +1720,18 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["npm:6.4.6", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/fdir-npm-6.4.6-52922d4c25-10c0.zip/node_modules/fdir/",\
+      ["npm:6.5.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/fdir-npm-6.5.0-8814a0dec7-10c0.zip/node_modules/fdir/",\
         "packageDependencies": [\
-          ["fdir", "npm:6.4.6"]\
+          ["fdir", "npm:6.5.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:8ee46b7c8a9b1ec3bb370e72c8417ab7d51cd32951fdaa112a9d7c2686b5cd4bed7fbf5e1cbd85348b626f34d10e12beb4dc499fd5a108c16e093042c5cb8e42#npm:6.4.6", {\
-        "packageLocation": "./.yarn/__virtual__/fdir-virtual-0a6266330c/7/runner/cache/others/berry/cache/fdir-npm-6.4.6-52922d4c25-10c0.zip/node_modules/fdir/",\
+      ["virtual:022f8433e60c91bbb16eea347ecc6d13b6dfc23391130a18fee8f32418eb09edc27ebcdeef66d4dd50c2718dea81293171f43984126a9d0ab0e974db24d676f7#npm:6.5.0", {\
+        "packageLocation": "./.yarn/__virtual__/fdir-virtual-d2b0926c02/7/runner/cache/others/berry/cache/fdir-npm-6.5.0-8814a0dec7-10c0.zip/node_modules/fdir/",\
         "packageDependencies": [\
           ["@types/picomatch", null],\
-          ["fdir", "virtual:8ee46b7c8a9b1ec3bb370e72c8417ab7d51cd32951fdaa112a9d7c2686b5cd4bed7fbf5e1cbd85348b626f34d10e12beb4dc499fd5a108c16e093042c5cb8e42#npm:6.4.6"],\
+          ["fdir", "virtual:022f8433e60c91bbb16eea347ecc6d13b6dfc23391130a18fee8f32418eb09edc27ebcdeef66d4dd50c2718dea81293171f43984126a9d0ab0e974db24d676f7#npm:6.5.0"],\
           ["picomatch", "npm:4.0.3"]\
         ],\
         "packagePeers": [\
@@ -3310,15 +3310,15 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["npm:7.1.2", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/vite-npm-7.1.2-6c08b5f7c7-10c0.zip/node_modules/vite/",\
+      ["npm:7.1.3", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/vite-npm-7.1.3-5e3fcf56f8-10c0.zip/node_modules/vite/",\
         "packageDependencies": [\
-          ["vite", "npm:7.1.2"]\
+          ["vite", "npm:7.1.3"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:7.1.2", {\
-        "packageLocation": "./.yarn/__virtual__/vite-virtual-8ee46b7c8a/7/runner/cache/others/berry/cache/vite-npm-7.1.2-6c08b5f7c7-10c0.zip/node_modules/vite/",\
+      ["virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:7.1.3", {\
+        "packageLocation": "./.yarn/__virtual__/vite-virtual-022f8433e6/7/runner/cache/others/berry/cache/vite-npm-7.1.3-5e3fcf56f8-10c0.zip/node_modules/vite/",\
         "packageDependencies": [\
           ["@types/jiti", null],\
           ["@types/less", null],\
@@ -3332,7 +3332,7 @@ const RAW_RUNTIME_STATE =
           ["@types/tsx", null],\
           ["@types/yaml", null],\
           ["esbuild", "npm:0.25.0"],\
-          ["fdir", "virtual:8ee46b7c8a9b1ec3bb370e72c8417ab7d51cd32951fdaa112a9d7c2686b5cd4bed7fbf5e1cbd85348b626f34d10e12beb4dc499fd5a108c16e093042c5cb8e42#npm:6.4.6"],\
+          ["fdir", "virtual:022f8433e60c91bbb16eea347ecc6d13b6dfc23391130a18fee8f32418eb09edc27ebcdeef66d4dd50c2718dea81293171f43984126a9d0ab0e974db24d676f7#npm:6.5.0"],\
           ["fsevents", "patch:fsevents@npm%3A2.3.3#optional!builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"],\
           ["jiti", null],\
           ["less", null],\
@@ -3347,7 +3347,7 @@ const RAW_RUNTIME_STATE =
           ["terser", null],\
           ["tinyglobby", "npm:0.2.14"],\
           ["tsx", null],\
-          ["vite", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:7.1.2"],\
+          ["vite", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:7.1.3"],\
           ["yaml", null]\
         ],\
         "packagePeers": [\
