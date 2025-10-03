@@ -31,7 +31,7 @@ const RAW_RUNTIME_STATE =
           ["@changesets/cli", "npm:2.29.7"],\
           ["@kroxilon/usda-parser", "workspace:."],\
           ["@types/node", "npm:22.18.6"],\
-          ["cross-env", "npm:10.0.0"],\
+          ["cross-env", "npm:10.1.0"],\
           ["peggy", "npm:5.0.6"],\
           ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.2.1"],\
           ["typescript", "patch:typescript@npm%3A5.9.2#optional!builtin<compat/typescript>::version=5.9.2&hash=5786d5"],\
@@ -583,7 +583,7 @@ const RAW_RUNTIME_STATE =
           ["@changesets/cli", "npm:2.29.7"],\
           ["@kroxilon/usda-parser", "workspace:."],\
           ["@types/node", "npm:22.18.6"],\
-          ["cross-env", "npm:10.0.0"],\
+          ["cross-env", "npm:10.1.0"],\
           ["peggy", "npm:5.0.6"],\
           ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.2.1"],\
           ["typescript", "patch:typescript@npm%3A5.9.2#optional!builtin<compat/typescript>::version=5.9.2&hash=5786d5"],\
@@ -1448,11 +1448,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["cross-env", [\
-      ["npm:10.0.0", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/cross-env-npm-10.0.0-e9b756cae3-10c0.zip/node_modules/cross-env/",\
+      ["npm:10.1.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/cross-env-npm-10.1.0-d2d02f62e5-10c0.zip/node_modules/cross-env/",\
         "packageDependencies": [\
           ["@epic-web/invariant", "npm:1.0.0"],\
-          ["cross-env", "npm:10.0.0"],\
+          ["cross-env", "npm:10.1.0"],\
           ["cross-spawn", "npm:7.0.6"]\
         ],\
         "linkType": "HARD"\
@@ -8929,7 +8929,8 @@ class ZipFS extends BasePortableFakeFS {
         const entries = Array.from(directoryListing, (name) => {
           return Object.assign(this.statImpl(`lstat`, ppath.join(p, name)), {
             name,
-            path: PortablePath.dot
+            path: PortablePath.dot,
+            parentPath: PortablePath.dot
           });
         });
         for (const entry of entries) {
@@ -8940,7 +8941,8 @@ class ZipFS extends BasePortableFakeFS {
           for (const child of subListing) {
             entries.push(Object.assign(this.statImpl(`lstat`, ppath.join(p, subPath, child)), {
               name: child,
-              path: subPath
+              path: subPath,
+              parentPath: subPath
             }));
           }
         }
@@ -8961,7 +8963,8 @@ class ZipFS extends BasePortableFakeFS {
       return Array.from(directoryListing, (name) => {
         return Object.assign(this.statImpl(`lstat`, ppath.join(p, name)), {
           name,
-          path: void 0
+          path: void 0,
+          parentPath: void 0
         });
       });
     } else {
