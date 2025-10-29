@@ -30,7 +30,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@changesets/cli", "npm:2.29.7"],\
           ["@kroxilon/usda-parser", "workspace:."],\
-          ["@types/node", "npm:22.18.12"],\
+          ["@types/node", "npm:24.9.1"],\
           ["cross-env", "npm:10.1.0"],\
           ["peggy", "npm:5.0.6"],\
           ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.2.1"],\
@@ -582,7 +582,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@changesets/cli", "npm:2.29.7"],\
           ["@kroxilon/usda-parser", "workspace:."],\
-          ["@types/node", "npm:22.18.12"],\
+          ["@types/node", "npm:24.9.1"],\
           ["cross-env", "npm:10.1.0"],\
           ["peggy", "npm:5.0.6"],\
           ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.2.1"],\
@@ -1046,11 +1046,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:22.18.12", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@types-node-npm-22.18.12-56ddfcfd62-10c0.zip/node_modules/@types/node/",\
+      ["npm:24.9.1", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@types-node-npm-24.9.1-fc092b2b0d-10c0.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:22.18.12"],\
-          ["undici-types", "npm:6.21.0"]\
+          ["@types/node", "npm:24.9.1"],\
+          ["undici-types", "npm:7.16.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3256,10 +3256,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["undici-types", [\
-      ["npm:6.21.0", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/undici-types-npm-6.21.0-eb2b0ed56a-10c0.zip/node_modules/undici-types/",\
+      ["npm:7.16.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/undici-types-npm-7.16.0-0e23b08124-10c0.zip/node_modules/undici-types/",\
         "packageDependencies": [\
-          ["undici-types", "npm:6.21.0"]\
+          ["undici-types", "npm:7.16.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3323,7 +3323,7 @@ const RAW_RUNTIME_STATE =
           ["@types/jiti", null],\
           ["@types/less", null],\
           ["@types/lightningcss", null],\
-          ["@types/node", "npm:22.18.12"],\
+          ["@types/node", "npm:24.9.1"],\
           ["@types/sass", null],\
           ["@types/sass-embedded", null],\
           ["@types/stylus", null],\
@@ -3381,7 +3381,7 @@ const RAW_RUNTIME_STATE =
           ["@types/jiti", null],\
           ["@types/less", null],\
           ["@types/lightningcss", null],\
-          ["@types/node", "npm:22.18.12"],\
+          ["@types/node", "npm:24.9.1"],\
           ["@types/sass", null],\
           ["@types/sass-embedded", null],\
           ["@types/stylus", null],\
@@ -3522,7 +3522,7 @@ const RAW_RUNTIME_STATE =
           ["@types/edge-runtime__vm", null],\
           ["@types/happy-dom", null],\
           ["@types/jsdom", null],\
-          ["@types/node", "npm:22.18.12"],\
+          ["@types/node", "npm:24.9.1"],\
           ["@types/vitest__browser", null],\
           ["@types/vitest__ui", null],\
           ["@vitest/browser", null],\
