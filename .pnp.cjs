@@ -30,7 +30,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@changesets/cli", "npm:2.31.0"],\
           ["@kroxilon/usda-parser", "workspace:."],\
-          ["@types/node", "npm:24.12.4"],\
+          ["@types/node", "npm:24.13.1"],\
           ["cross-env", "npm:10.1.0"],\
           ["peggy", "npm:5.1.0"],\
           ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.2.1"],\
@@ -612,7 +612,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@changesets/cli", "npm:2.31.0"],\
           ["@kroxilon/usda-parser", "workspace:."],\
-          ["@types/node", "npm:24.12.4"],\
+          ["@types/node", "npm:24.13.1"],\
           ["cross-env", "npm:10.1.0"],\
           ["peggy", "npm:5.1.0"],\
           ["ts-pegjs", "virtual:23e65fa018b858946c219ae51af70a8e867301dcff6ffd7b8d3d75822ccd9875ac3631aa466e5540b51666bd23e71a3ffdec0e02c92d47d7d08c4eaf5e27a7b0#npm:2.2.1"],\
@@ -1120,11 +1120,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:24.12.4", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@types-node-npm-24.12.4-fb0c00261b-10c0.zip/node_modules/@types/node/",\
+      ["npm:24.13.1", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@types-node-npm-24.13.1-376494e757-10c0.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:24.12.4"],\
-          ["undici-types", "npm:7.16.0"]\
+          ["@types/node", "npm:24.13.1"],\
+          ["undici-types", "npm:7.18.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3479,10 +3479,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["undici-types", [\
-      ["npm:7.16.0", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/undici-types-npm-7.16.0-0e23b08124-10c0.zip/node_modules/undici-types/",\
+      ["npm:7.18.2", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/undici-types-npm-7.18.2-3e6d69d829-10c0.zip/node_modules/undici-types/",\
         "packageDependencies": [\
-          ["undici-types", "npm:7.16.0"]\
+          ["undici-types", "npm:7.18.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3546,7 +3546,7 @@ const RAW_RUNTIME_STATE =
           ["@types/esbuild", null],\
           ["@types/jiti", null],\
           ["@types/less", null],\
-          ["@types/node", "npm:24.12.4"],\
+          ["@types/node", "npm:24.13.1"],\
           ["@types/sass", null],\
           ["@types/sass-embedded", null],\
           ["@types/stylus", null],\
@@ -3607,7 +3607,7 @@ const RAW_RUNTIME_STATE =
           ["@types/jiti", null],\
           ["@types/less", null],\
           ["@types/lightningcss", null],\
-          ["@types/node", "npm:24.12.4"],\
+          ["@types/node", "npm:24.13.1"],\
           ["@types/sass", null],\
           ["@types/sass-embedded", null],\
           ["@types/stylus", null],\
@@ -3748,7 +3748,7 @@ const RAW_RUNTIME_STATE =
           ["@types/edge-runtime__vm", null],\
           ["@types/happy-dom", null],\
           ["@types/jsdom", null],\
-          ["@types/node", "npm:24.12.4"],\
+          ["@types/node", "npm:24.13.1"],\
           ["@types/vitest__browser", null],\
           ["@types/vitest__ui", null],\
           ["@vitest/browser", null],\
@@ -9549,7 +9549,7 @@ function getPathForDisplay(p) {
   return npath.normalize(npath.fromPortablePath(p));
 }
 
-const [major, minor] = process.versions.node.split(`.`).map((value) => parseInt(value, 10));
+const [major, minor, patch] = process.versions.node.split(`.`).map((value) => parseInt(value, 10));
 const WATCH_MODE_MESSAGE_USES_ARRAYS = major > 19 || major === 19 && minor >= 2 || major === 18 && minor >= 13;
 
 function readPackageScope(checkPath) {
