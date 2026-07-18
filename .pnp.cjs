@@ -28,7 +28,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@changesets/cli", "npm:2.31.0"],\
+          ["@changesets/cli", "npm:2.31.1"],\
           ["@kroxilon/usda-parser", "workspace:."],\
           ["@types/node", "npm:24.13.3"],\
           ["cross-env", "npm:10.1.0"],\
@@ -99,13 +99,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@changesets/cli", [\
-      ["npm:2.31.0", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@changesets-cli-npm-2.31.0-7913361d18-10c0.zip/node_modules/@changesets/cli/",\
+      ["npm:2.31.1", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@changesets-cli-npm-2.31.1-5d7fa3567e-10c0.zip/node_modules/@changesets/cli/",\
         "packageDependencies": [\
           ["@changesets/apply-release-plan", "npm:7.1.1"],\
           ["@changesets/assemble-release-plan", "npm:6.0.10"],\
           ["@changesets/changelog-git", "npm:0.2.1"],\
-          ["@changesets/cli", "npm:2.31.0"],\
+          ["@changesets/cli", "npm:2.31.1"],\
           ["@changesets/config", "npm:3.1.4"],\
           ["@changesets/errors", "npm:0.2.0"],\
           ["@changesets/get-dependents-graph", "npm:2.1.4"],\
@@ -117,7 +117,7 @@ const RAW_RUNTIME_STATE =
           ["@changesets/should-skip-package", "npm:0.1.2"],\
           ["@changesets/types", "npm:6.1.0"],\
           ["@changesets/write", "npm:0.4.0"],\
-          ["@inquirer/external-editor", "virtual:7913361d188717fd19ecc90863e5a5ef4a494b95e93e75a460dffb515c18214f96a545acb5c898eb513481cc25e3c3d8e75a79b53b349573f1eff1fd6b51c9ed#npm:1.0.3"],\
+          ["@inquirer/external-editor", "virtual:5d7fa3567e8d38ed070c4a1348a297daa57fba8a2aca9891c99193dbb48293cdd6595c0c427f78c813871cf1ec37fe7ad46c8ed1e3c840dec94a04e62edf6bfd#npm:1.0.3"],\
           ["@manypkg/get-packages", "npm:1.1.3"],\
           ["ansi-colors", "npm:4.1.3"],\
           ["enquirer", "npm:2.4.1"],\
@@ -583,10 +583,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:7913361d188717fd19ecc90863e5a5ef4a494b95e93e75a460dffb515c18214f96a545acb5c898eb513481cc25e3c3d8e75a79b53b349573f1eff1fd6b51c9ed#npm:1.0.3", {\
-        "packageLocation": "./.yarn/__virtual__/@inquirer-external-editor-virtual-cf4b93e40f/7/runner/cache/others/berry/cache/@inquirer-external-editor-npm-1.0.3-a26b7566ca-10c0.zip/node_modules/@inquirer/external-editor/",\
+      ["virtual:5d7fa3567e8d38ed070c4a1348a297daa57fba8a2aca9891c99193dbb48293cdd6595c0c427f78c813871cf1ec37fe7ad46c8ed1e3c840dec94a04e62edf6bfd#npm:1.0.3", {\
+        "packageLocation": "./.yarn/__virtual__/@inquirer-external-editor-virtual-200d225ca0/7/runner/cache/others/berry/cache/@inquirer-external-editor-npm-1.0.3-a26b7566ca-10c0.zip/node_modules/@inquirer/external-editor/",\
         "packageDependencies": [\
-          ["@inquirer/external-editor", "virtual:7913361d188717fd19ecc90863e5a5ef4a494b95e93e75a460dffb515c18214f96a545acb5c898eb513481cc25e3c3d8e75a79b53b349573f1eff1fd6b51c9ed#npm:1.0.3"],\
+          ["@inquirer/external-editor", "virtual:5d7fa3567e8d38ed070c4a1348a297daa57fba8a2aca9891c99193dbb48293cdd6595c0c427f78c813871cf1ec37fe7ad46c8ed1e3c840dec94a04e62edf6bfd#npm:1.0.3"],\
           ["@types/node", null],\
           ["chardet", "npm:2.1.1"],\
           ["iconv-lite", "npm:0.7.0"]\
@@ -610,7 +610,7 @@ const RAW_RUNTIME_STATE =
       ["workspace:.", {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@changesets/cli", "npm:2.31.0"],\
+          ["@changesets/cli", "npm:2.31.1"],\
           ["@kroxilon/usda-parser", "workspace:."],\
           ["@types/node", "npm:24.13.3"],\
           ["cross-env", "npm:10.1.0"],\
